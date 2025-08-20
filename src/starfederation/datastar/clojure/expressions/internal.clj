@@ -146,11 +146,12 @@
 
 (defn js* [form]
   (->
-   (squint.compiler/compile-string (str form) {:elide-imports true
-                                               :elide-exports true
-                                               :top-level     false
-                                               :context       :expr
-                                               :macros        compiler-macro-options})
+   (squint/compile-string (pr-str form)
+                          {:elide-imports true
+                           :elide-exports true
+                           :top-level     false
+                           :context       :expr
+                           :macros        compiler-macro-options})
    (replace-deref)
    (replace-truth)
    (restore-signals-casing form)
@@ -224,10 +225,14 @@
   Object
   (toString [this] (js this))
   IJSExpression
-  (clj [_this] (clojure.walk/prewalk
-                (fn [x] (if (instance? JSExpression x) (clj x) x))
-                clj-form))
+  (clj [_this] clj-form)
   (js  [this] (compile (clj this))))
+
+(defmethod print-method JSExpression [v w]
+  (.write w (pr-str (clj v))))
+
+(defmethod print-dup JSExpression [v w]
+  (.write w (pr-str (clj v))))
 
 (defn pre-process [forms]
   (-> forms
@@ -255,14 +260,27 @@
     (process-string-concat `(do ($wut ~thing "bar"))))
   ;; => (do (clojure.core/unquote (clojure.core/symbol (str "$wut" 1234 "bar"))))
 
+
+  ;; basic stuff still works:
+  (str (d*js (set! $signal 55))) ;; => "$signal = 55"
+
+  ;; Complex stuff works:
   (def my-d*js (let [x (d*js (.. evt -target -value))
                      num 55
                      y (d*js (+ ~num ~x))]
                  (d*js (set! $signal ~y)
                        (set! $other-signal "no"))))
   (clj my-d*js) ;; => (do (set! $signal (do (+ 55 (do (.. evt -target -value))))) (set! $other-signal "no"))
-  (js my-d*js)  ;; => "$signal = (55) + (evt.target.value); $other-signal = \"no\""
+  (js my-d*js) ;; => "$signal = (55) + (evt.target.value); $other-signal = \"no\""
   (str my-d*js) ;; => "$signal = (55) + (evt.target.value); $other-signal = \"no\""
+  (pr-str my-d*js) ;; => "(do (set! $signal (do (+ 55 (do (.. evt -target -value))))) (set! $other-signal \"no\"))"
 
-  (d*js-str (+ 4 5)) ;; => "(4) + (5)"
+
+  ;; Works w/ chassis:
+  (require '[dev.onionpancakes.chassis.core :as chassis])
+  (let [x (d*js (.. evt -target -value))]
+    (chassis/html [:div {:data-on-whatever (d*js (set! $signal ~x))}]))
+  ;; => "<div data-on-whatever=\"$signal = evt.target.value\"></div>"
+
+
   )
