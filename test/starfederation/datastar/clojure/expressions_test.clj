@@ -3,7 +3,7 @@
 (ns starfederation.datastar.clojure.expressions-test
   (:require
    [clojure.test :refer [deftest is testing]]
-   [starfederation.datastar.clojure.expressions :refer [->expr]]))
+   [starfederation.datastar.clojure.expressions :refer [->expr ->js ->js-str]]))
 
 (def record {:record-id "1234"})
 
@@ -193,13 +193,22 @@
            (->expr (when false
                      (set! $foo true)))))))
 
+(deftest test-composable-expressions
+  (testing "->js returns a composable expression"
+    (let [value (->js (.. evt -target -value))]
+      (is (= "$signal = evt.target.value"
+             (str (->js (set! $signal ~value)))))
+      (is (= "$signal = evt.target.value"
+             (->expr (set! $signal ~value))))))
+
+  (testing "->js-str preserves string interpolation behavior"
+    (let [value (->js-str (.. evt -target -value))]
+      (is (= "$signal = \"evt.target.value\""
+             (->js-str (set! $signal ~value)))))))
+
 (deftest test-known-limitations
   (testing "generated symbol in template string"
     (is (= "(() => { const el_id1 = evt.srcElement.id; if (el_id1) { return (@post(\"`/ping/${el-id}`\"))};  })()"
            (->expr (let [el-id evt.srcElement.id]
                      (when el-id
                        (@post "`/ping/${el-id}`"))))))))
-
-(comment
-  (clojure.test/test-ns *ns*)
-  )
