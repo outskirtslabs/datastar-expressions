@@ -199,3 +199,7 @@
            (->expr (let [el-id evt.srcElement.id]
                      (when el-id
                        (@post "`/ping/${el-id}`"))))))))
+
+(comment
+  (clojure.test/test-ns *ns*)
+  )

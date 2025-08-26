@@ -10,6 +10,4 @@
 
   TODO docs "
   [& forms]
-  (let [processed-form (impl/pre-process forms)]
-    #_(tap> `(template ~processed-form))
-    `(impl/compile (template ~processed-form))))
+  `(impl/d*js-str ~@forms))
