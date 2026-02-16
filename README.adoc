@@ -1,70 +1,83 @@
-# `expressions`
+= `expressions`
 
-> Clojure to Datastar expression transpiler
+____
+Clojure to Datastar expression transpiler
+____
 
-`expressions` is a proof-of-concept for writing [🚀 datastar][dt] expressions using Clojure without manual string concatenation.
+`expressions` is a proof-of-concept for writing https://data-star.dev[🚀
+datastar] expressions using Clojure without manual string concatenation.
 
 Instead of:
 
-```clojure
+[source,clojure]
+----
 [:button {:data-on-click (str "$person-id" (:id person) " @post('/update-person')")}]`
-```
-
+----
 
 Write this:
 
-```clojure
+[source,clojure]
+----
 [:button {:data-on-click (->expr
                           (set! $person-id ~(:id person))
                           (@post "/update-person"))}]
-```
+----
 
-It is powered by [squint](https://github.com/squint-cljs/squint), thanks [@borkdude][bork].
+It is powered by https://github.com/squint-cljs/squint[squint], thanks
+https://github.com/borkdude[@borkdude].
 
-## Goal & Non-Goals
+== Goal & Non-Goals
 
-Since Clojure does not have string interpolation, writing even simple [Datastar
-(d\*) expressions][dt-expr] can involve a lot of `str` or `format` gymnastics.
+Since Clojure does not have string interpolation, writing even simple
+https://data-star.dev/guide/datastar_expressions[Datastar (d++*++)
+expressions] can involve a lot of `str` or `format` gymnastics.
 
-The goal of `expressions` is to add a little bit of syntax sugar when writing
-d\* expressions so that they can be read and manipulated as s-expressions.
+The goal of `expressions` is to add a little bit of syntax sugar when
+writing d++*++ expressions so that they can be read and manipulated as
+s-expressions.
 
-D\* expressions are not exactly javascript, though they are interpreted by the
-js runtime. D\* expressions also do not have a grammar or really any formal
-definition of any kind. Delaney's official position is that the simplest
-and obvious expressions a human would write should work.
+D++*++ expressions are not exactly javascript, though they are
+interpreted by the js runtime. D++*++ expressions also do not have a
+grammar or really any formal definition of any kind. Delaney’s official
+position is that the simplest and obvious expressions a human would
+write should work.
 
-`expressions` follows that by trying to provide coverage for 99% of simple and
-obvious expressions.
+`expressions` follows that by trying to provide coverage for 99% of
+simple and obvious expressions.
 
-⚠️ You can totally write expressions that result in broken javascript, that is not
-necessarily a bug.
+⚠️ You can totally write expressions that result in broken javascript,
+that is not necessarily a bug.
 
-## Install
+== Install
 
-```clojure
+[source,clojure]
+----
 datastar/expressions {:git/url "https://github.com/outskirtslabs/datastar-expressions/"
                       :git/sha "53efc7093be1ba33b331b4a27884be8925d8bdce"}
-```
+----
 
-## Status
+== Status
 
-`expressions` is experimental and breaking changes will occur as it is actively being developed. Please share your feedback so we can squash bugs and arrive at a stable release.
+`expressions` is experimental and breaking changes will occur as it is
+actively being developed. Please share your feedback so we can squash
+bugs and arrive at a stable release.
 
-## REPL Exploration
+== REPL Exploration
 
-To see what this is all about, you can clone this repo and play with the demos:
+To see what this is all about, you can clone this repo and play with the
+demos:
 
-```
+....
 clojure -M:dev ;; (bring your own repl server)
-```
+....
 
-Check out [`dev/user.clj`](./dev/user.clj) and [`dev/demo.clj`](./dev/demo.clj)
+Check out link:./dev/user.clj[`dev/user.clj`] and
+link:./dev/demo.clj[`dev/demo.clj`]
 
+== Example Usage
 
-## Example Usage
-
-```clojure
+[source,clojure]
+----
 (ns user
   (:require [starfederation.datastar.clojure.expressions :refer [->expr]]))
 
@@ -230,11 +243,12 @@ Check out [`dev/user.clj`](./dev/user.clj) and [`dev/demo.clj`](./dev/demo.clj)
 (->expr (when false
           (set! $foo true)))
 ;; => "((!!(false)) ? (($foo = true)) : (null))"
-```
+----
 
-## Known Limitations
+== Known Limitations
 
-``` clojure
+[source,clojure]
+----
 ;; a generated symbol (el-id below) cannot be used in a template string
 (->expr (let [el-id evt.srcElement.id]
           (when el-id
@@ -246,18 +260,10 @@ Check out [`dev/user.clj`](./dev/user.clj) and [`dev/demo.clj`](./dev/demo.clj)
           true (set! $ui._mainMenuOpen false)
           false (set! $ui._mainMenuOpen true)))
 ;; => "(() => { const pred__288831 = squint_core._EQ_; const expr__288842 = $ui._mainMenuOpen; if (!!(pred__288831(true, expr__288842))) { return $ui._mainMenuOpen = false} else { if (!!(pred__288831(false, expr__288842))) { return $ui._mainMenuOpen = true} else { throw new java.lang.IllegalArgumentException(squint_core.str(\"No matching clause: \", expr__288842))}}; })()"
-```
+----
 
-## License: MIT License
+== License: MIT License
 
-Copyright © 2025 Casey Link <casey@outskirtslabs.com>
+Copyright © 2025 Casey Link casey@outskirtslabs.com
 
-Distributed under the [MIT](https://spdx.org/licenses/MIT.html).
-
-
-[bork]: https://github.com/borkdude
-[dt]: https://data-star.dev
-[dt-dev]: https://github.com/starfederation/datastar/tree/develop
-[dt-expr]: https://data-star.dev/guide/datastar_expressions
-
-
+Distributed under the https://spdx.org/licenses/MIT.html[MIT].

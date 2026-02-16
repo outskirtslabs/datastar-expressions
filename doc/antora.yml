@@ -1,0 +1,7 @@
+---
+name: datastar-expressions
+title: Datastar Expressions
+version: next
+prerelease: true
+nav:
+  - modules/ROOT/nav.adoc

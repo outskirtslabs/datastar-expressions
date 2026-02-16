@@ -1,6 +1,11 @@
-{:paths []
+{:deps  {outskirtslabs/bb-tasks
+         {:git/url "https://github.com/outskirtslabs/bb-tasks"
+          :git/sha "8f38522bce745400f38456eab254977f94656651"}}
+ :pods  {clj-kondo/clj-kondo {:version "2026.01.19"}}
+ :paths []
  :tasks {:requires ([clojure.string :as str]
-                    [babashka.tasks :refer [shell]])
+                    [babashka.tasks :refer [shell]]
+                    [ol.bb-tasks.gen-docs :as gen-docs])
          test (apply clojure "-M:kaocha" *command-line-args*)
          fmt (shell "cljfmt -v fix dev src test")
          fmt.check (shell "cljfmt -v check dev src test")
@@ -12,12 +17,5 @@
                             (str " --lint " (first *command-line-args*))
                             " --lint .")))
          ci {:depends [test fmt.check lint]}
-         update-readme (let [sha (-> (shell {:out :string} "git rev-parse HEAD") :out str/trim)
-                             readme (slurp "README.md")
-                             updated (str/replace readme
-                                                  (re-pattern ":git/sha \"[a-f0-9]{40}\"")
-                                                  (str ":git/sha \"" sha "\""))]
-                         (spit "README.md" updated)
-                         (shell "git add README.md")
-                         (shell "git commit -m \"Update gitlib hash in readme\"")
-                         (println "Updated README.md with git sha:" sha))}}
+         gen-docs {:doc  "Generate all Antora documentation"
+                   :task (gen-docs/generate!)}}}

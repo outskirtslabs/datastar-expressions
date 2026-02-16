@@ -1,0 +1,18 @@
+= starfederation.datastar.clojure.expressions
+
+[#--GT-expr]
+== ->expr
+
+[source,clojure]
+----
+(->expr & forms)
+----
+
+Compiles a clojure form into a datastar expression.
+
+TODO docs 
+
+_macro_
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions.clj#L8-L15[source,window=_blank]

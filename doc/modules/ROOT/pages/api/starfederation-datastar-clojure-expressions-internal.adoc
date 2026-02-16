@@ -1,0 +1,366 @@
+= starfederation.datastar.clojure.expressions.internal
+
+[#bool-expr]
+== bool-expr
+
+[source,clojure]
+----
+(bool-expr e)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L10-L13[source,window=_blank]
+
+'''
+
+[#expr-js-template]
+== expr-js-template
+
+[source,clojure]
+----
+(expr-js-template _ _ & args)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L15-L16[source,window=_blank]
+
+'''
+
+[#expr-println]
+== expr-println
+
+[source,clojure]
+----
+(expr-println _ _ & exprs)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L18-L21[source,window=_blank]
+
+'''
+
+[#expr-do]
+== expr-do
+
+[source,clojure]
+----
+(expr-do _ _)
+(expr-do _ _ & exprs)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L23-L27[source,window=_blank]
+
+'''
+
+[#expr-if]
+== expr-if
+
+[source,clojure]
+----
+(expr-if _ _ test & body)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L29-L31[source,window=_blank]
+
+'''
+
+[#expr-not]
+== expr-not
+
+[source,clojure]
+----
+(expr-not _ _ x)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L33-L37[source,window=_blank]
+
+'''
+
+[#expr-when]
+== expr-when
+
+[source,clojure]
+----
+(expr-when _ _ test & body)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L39-L41[source,window=_blank]
+
+'''
+
+[#expr-when-not]
+== expr-when-not
+
+[source,clojure]
+----
+(expr-when-not _ _ test & body)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L43-L45[source,window=_blank]
+
+'''
+
+[#expr-or]
+== expr-or
+
+[source,clojure]
+----
+(expr-or _ _)
+(expr-or _ _ x)
+(expr-or _ _ x & next)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L47-L53[source,window=_blank]
+
+'''
+
+[#expr-raw]
+== expr-raw
+
+[source,clojure]
+----
+(expr-raw _ _)
+(expr-raw _ _ x)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L55-L60[source,window=_blank]
+
+'''
+
+[#expr-and]
+== expr-and
+
+[source,clojure]
+----
+(expr-and _ _)
+(expr-and _ _ x)
+(expr-and _ _ x & next)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L62-L70[source,window=_blank]
+
+'''
+
+[#replace-truth]
+== replace-truth
+
+[source,clojure]
+----
+(replace-truth js-string)
+----
+
+Post-process compiled JavaScript to convert squint_core.truth_(.*) to !!$1
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L72-L75[source,window=_blank]
+
+'''
+
+[#replace-deref]
+== replace-deref
+
+[source,clojure]
+----
+(replace-deref js-string)
+----
+
+Post-processes compiled JavaScript to convert squint_core.deref(fn) to @fn
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L77-L84[source,window=_blank]
+
+'''
+
+[#collect-kebab-signals]
+== collect-kebab-signals
+
+[source,clojure]
+----
+(collect-kebab-signals form)
+----
+
+Collects all kebab-case signal names starting with $ from a form
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L86-L95[source,window=_blank]
+
+'''
+
+[#restore-signals-casing]
+== restore-signals-casing
+
+[source,clojure]
+----
+(restore-signals-casing js-string form)
+----
+
+Post-processes compiled js to preserve the original casing of kebab cased signals
+
+Squint converts symbols like foo-bar into foo_bar, this function reverses that.
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L102-L118[source,window=_blank]
+
+'''
+
+[#macro-replacements]
+== macro-replacements
+
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L124-L130[source,window=_blank]
+
+'''
+
+[#compiler-macro-options]
+== compiler-macro-options
+
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L132-L141[source,window=_blank]
+
+'''
+
+[#js-STAR-]
+== js*
+
+[source,clojure]
+----
+(js* form)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L143-L154[source,window=_blank]
+
+'''
+
+[#compile]
+== compile
+
+[source,clojure]
+----
+(compile forms)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L156-L161[source,window=_blank]
+
+'''
+
+[#process-string-concat]
+== process-string-concat
+
+[source,clojure]
+----
+(process-string-concat form)
+----
+
+This function converts forms whose head is a symbol starting with $ into string concatenation forms
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L163-L183[source,window=_blank]
+
+'''
+
+[#process-not-equals]
+== process-not-equals
+
+[source,clojure]
+----
+(process-not-equals form)
+----
+
+Transforms (not= x y ...) into (not (= x y ...)) to avoid squint_core dependency
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L185-L194[source,window=_blank]
+
+'''
+
+[#process-macros]
+== process-macros
+
+[source,clojure]
+----
+(process-macros form)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L196-L202[source,window=_blank]
+
+'''
+
+[#process-interpolation]
+== process-interpolation
+
+[source,clojure]
+----
+(process-interpolation form)
+----
+
+Walks the forms and replaces ("`foo`") with (expr/js-template "foo")
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L204-L214[source,window=_blank]
+
+'''
+
+[#pre-process]
+== pre-process
+
+[source,clojure]
+----
+(pre-process forms)
+----
+
+
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions/internal.clj#L216-L221[source,window=_blank]
