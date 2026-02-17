@@ -1,6 +1,6 @@
 ;; Copyright © 2025 Casey Link
 ;; SPDX-License-Identifier: MIT
-(ns starfederation.datastar.clojure.expressions.internal
+(ns ^:no-doc starfederation.datastar.clojure.expressions.internal
   (:refer-clojure :exclude [compile])
   (:require
    [clojure.string :as str]
