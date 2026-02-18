@@ -4,6 +4,9 @@ ____
 Clojure to Datastar expression transpiler
 ____
 
+image:https://img.shields.io/badge/doc-outskirtslabs-orange.svg[doc,link=http://docs.outskirtslabs.com/datastar-expressions/next/]
+image:https://img.shields.io/badge/status-experimental-red.svg[status: experimental,link=http://docs.outskirtslabs.com/open-source-vital-signs#experimental]
+
 `expressions` is a proof-of-concept for writing https://data-star.dev[🚀
 datastar] expressions using Clojure without manual string concatenation.
 
@@ -25,6 +28,8 @@ Write this:
 
 It is powered by https://github.com/squint-cljs/squint[squint], thanks
 https://github.com/borkdude[@borkdude].
+
+Project status: *https://docs.outskirtslabs.com/open-source-vital-signs#experimental[Experimental]*.
 
 == Goal & Non-Goals
 
@@ -55,6 +60,12 @@ that is not necessarily a bug.
 datastar/expressions {:git/url "https://github.com/outskirtslabs/datastar-expressions/"
                       :git/sha "53efc7093be1ba33b331b4a27884be8925d8bdce"}
 ----
+
+== Documentation
+
+* https://docs.outskirtslabs.com/datastar-expressions/next/[Docs]
+* https://docs.outskirtslabs.com/datastar-expressions/next/api[API Reference]
+* https://github.com/outskirtslabs/datastar-expressions/issues[Support via GitHub Issues]
 
 == Status
 
