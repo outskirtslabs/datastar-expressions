@@ -11,4 +11,11 @@
                                   dev.data-star.clojure/sdk      {:mvn/version "1.0.0-RC1"}
                                   dev.data-star.clojure/http-kit {:mvn/version "1.0.0-RC1"}}}
            :kaocha {:extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}}
-                    :main-opts  ["-m" "kaocha.runner"]}}}
+                    :main-opts  ["-m" "kaocha.runner"]}
+           :neil   {:project {:name        com.outskirtslabs/datastar-expressions
+                              :license     {:id "MIT"}
+                              :description "Clojure to Datastar expression transpiler"
+                              :platforms   [:clj]
+                              :created     "2025-04-14"
+                              :status      :experimental
+                              :version     "0.0.1"}}}}

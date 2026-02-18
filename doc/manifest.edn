@@ -1,0 +1,17 @@
+{:manifest/version 1,
+ :project
+ {:id "datastar-expressions",
+  :coord "com.outskirtslabs/datastar-expressions",
+  :description "Clojure to Datastar expression transpiler",
+  :license "MIT",
+  :platforms [:clj],
+  :status :experimental,
+  :created "2025-04-14",
+  :version "0.0.1"},
+ :docs
+ {:component "datastar-expressions",
+  :title "datastar-expressions",
+  :version "next",
+  :prerelease true,
+  :start-path "doc"},
+ :repo {:url "https://github.com/outskirtslabs/datastar-expressions"}}
