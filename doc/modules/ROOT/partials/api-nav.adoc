@@ -1,2 +1,2 @@
-* xref:api.adoc[API Reference]
-** xref:api/starfederation-datastar-clojure-expressions.adoc[starfederation.datastar.clojure.expressions]
+.API Reference
+* xref:api/starfederation-datastar-clojure-expressions.adoc[starfederation.datastar.clojure.expressions]

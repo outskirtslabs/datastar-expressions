@@ -1,11 +1,11 @@
-= `expressions`
+= datastar-expressions
 
 ____
 Clojure to Datastar expression transpiler
 ____
 
-image:https://img.shields.io/badge/doc-outskirtslabs-orange.svg[doc,link=http://docs.outskirtslabs.com/datastar-expressions/next/]
-image:https://img.shields.io/badge/status-experimental-red.svg[status: experimental,link=http://docs.outskirtslabs.com/open-source-vital-signs#experimental]
+image:https://img.shields.io/badge/doc-outskirtslabs-orange.svg[doc,link=https://docs.outskirtslabs.com/datastar-expressions/next/]
+image:https://img.shields.io/badge/status-experimental-red.svg[status: experimental,link=https://docs.outskirtslabs.com/open-source-vital-signs#experimental]
 
 `expressions` is a proof-of-concept for writing https://data-star.dev[🚀
 datastar] expressions using Clojure without manual string concatenation.
