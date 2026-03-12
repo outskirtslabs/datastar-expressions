@@ -1,6 +1,6 @@
 {:deps  {outskirtslabs/bb-tasks
          {:git/url "https://github.com/outskirtslabs/bb-tasks"
-          :git/sha "9741cad8b7232ed27fb0fdd3496d1ff7b8a38614"}}
+          :git/sha "b224881d5f6d4ae72c514faede9a5eb0b5f627a8"}}
  :pods  {clj-kondo/clj-kondo {:version "2026.01.19"}}
  :paths []
  :tasks {:requires ([clojure.string :as str]
