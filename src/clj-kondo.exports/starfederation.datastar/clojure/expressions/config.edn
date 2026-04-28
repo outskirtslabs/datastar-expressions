@@ -1,1 +1,2 @@
-{:linters {:unresolved-symbol {:exclude ['(starfederation.datastar.clojure.expressions/->expr)]}}}
+{:linters {:not-a-function    {:skip-args [starfederation.datastar.clojure.expressions/->expr]}
+           :unresolved-symbol {:exclude ['(starfederation.datastar.clojure.expressions/->expr)]}}}
