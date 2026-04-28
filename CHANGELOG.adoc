@@ -9,3 +9,4 @@ This project uses https://www.taoensso.com/break-versioning[*Break Versioning*].
 == 2026-04-28
 
 * Updated Squint and refreshed expression output expectations for its new parenthesization and whitespace style.
+* Fixed `&&` and `||` aliases to preserve logical precedence in nested expressions.

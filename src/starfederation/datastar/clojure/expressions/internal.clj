@@ -122,7 +122,9 @@
 ;; our own macros that compile to the JS that we want.
 ;; Mainly we want to avoid special forms that rely on the squint core lib
 (def macro-replacements {'and      'expr/and
+                         '&&       'expr/and
                          'or       'expr/or
+                         '||       'expr/or
                          'if       'expr/if
                          'not      'expr/not
                          'println  'expr/println
