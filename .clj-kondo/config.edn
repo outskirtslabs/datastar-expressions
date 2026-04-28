@@ -1,5 +1,9 @@
 {:skip-comments true
  :lint-as       {starfederation.datastar.clojure.utils/def-clone clojure.core/def}
  :linters       {:unresolved-var    {:exclude [starfederation.datastar.clojure.adapter.http-kit/on-open backtick/template]}
-                 :not-a-function    {:skip-args [starfederation.datastar.clojure.expressions/->expr]}
-                 :unresolved-symbol {:exclude ['(starfederation.datastar.clojure.expressions/->expr)]}}}
+                 :not-a-function    {:skip-args [starfederation.datastar.clojure.expressions/->expr
+                                           starfederation.datastar.clojure.expressions/->js
+                                           starfederation.datastar.clojure.expressions/->js-str]}
+                 :unresolved-symbol {:exclude ['(starfederation.datastar.clojure.expressions/->expr)
+                                               '(starfederation.datastar.clojure.expressions/->js)
+                                               '(starfederation.datastar.clojure.expressions/->js-str)]}}}

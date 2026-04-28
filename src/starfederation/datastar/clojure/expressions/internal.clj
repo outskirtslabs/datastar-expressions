@@ -260,8 +260,7 @@
     (process-string-concat `(do ($wut ~thing "bar"))))
   ;; => (do (clojure.core/unquote (clojure.core/symbol (str "$wut" 1234 "bar"))))
 
-
-  ;; basic stuff still works:
+;; basic stuff still works:
   (str (d*js (set! $signal 55))) ;; => "$signal = 55"
 
   ;; Complex stuff works:
@@ -275,12 +274,9 @@
   (str my-d*js) ;; => "$signal = (55) + (evt.target.value); $other-signal = \"no\""
   (pr-str my-d*js) ;; => "(do (set! $signal (do (+ 55 (do (.. evt -target -value))))) (set! $other-signal \"no\"))"
 
-
-  ;; Works w/ chassis:
+;; Works w/ chassis:
   (require '[dev.onionpancakes.chassis.core :as chassis])
   (let [x (d*js (.. evt -target -value))]
     (chassis/html [:div {:data-on-whatever (d*js (set! $signal ~x))}]))
   ;; => "<div data-on-whatever=\"$signal = evt.target.value\"></div>"
-
-
   )
