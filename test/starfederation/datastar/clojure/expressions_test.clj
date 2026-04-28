@@ -39,7 +39,7 @@
 (deftest test-arithmetic-operations
   (testing "addition with unquoted value"
     (let [val 1]
-      (is (= "$forty-two = (1) + ($forty-one)"
+      (is (= "$forty-two = (1 + $forty-one)"
              (->expr (set! $forty-two (+ ~val $forty-one))))))))
 
 (deftest test-function-calls
@@ -75,47 +75,47 @@
 
 (deftest test-logical-operations
   (testing "logical and"
-    (is (= "(($my-signal) === (\"bar\")) && (\"ret-val\")"
+    (is (= "(($my-signal === \"bar\")) && (\"ret-val\")"
            (->expr (and (= $my-signal "bar")
                         "ret-val")))))
 
   (testing "when expression"
-    (is (= "((($my-signal) === (\"bar\")) ? ((\"ret-val\")) : (null))"
+    (is (= "((($my-signal === \"bar\")) ? ((\"ret-val\")) : (null))"
            (->expr (when (= $my-signal "bar")
                      "ret-val")))))
 
   (testing "if expression"
-    (is (= "((($my-signal) === (\"bar\")) ? (\"true-val\") : (\"false-val\"))"
+    (is (= "((($my-signal === \"bar\")) ? (\"true-val\") : (\"false-val\"))"
            (->expr (if (= $my-signal "bar")
                      "true-val"
                      "false-val")))))
 
   (testing "complex logical operations"
-    (is (= "(((evt.key) === (\"Enter\")) || ((evt.ctrlKey) && ((evt.key) === (\"1\")))) && (alert(\"Key Pressed\"))"
+    (is (= "(((evt.key === \"Enter\")) || ((evt.ctrlKey) && ((evt.key === \"1\")))) && (alert(\"Key Pressed\"))"
            (->expr (&& (or (= evt.key "Enter")
                            (&& evt.ctrlKey (= evt.key "1")))
                        (alert "Key Pressed")))))))
 
 (deftest test-when-with-multiple-forms
   (testing "when with preventDefault and alert"
-    (is (= "(((evt.key) === (\"Enter\")) ? ((evt.preventDefault()), (alert(\"Key Pressed\"))) : (null))"
+    (is (= "(((evt.key === \"Enter\")) ? ((evt.preventDefault()), (alert(\"Key Pressed\"))) : (null))"
            (->expr (when (= evt.key "Enter")
                      (evt.preventDefault)
                      (alert "Key Pressed")))))))
 
 (deftest test-data-structures
   (testing "data-class object"
-    (is (= "({ \"hidden\": ($fetching-bears) && (($bear-id) === (1)) })"
+    (is (= "({\"hidden\": ($fetching-bears) && (($bear-id === 1))})"
            (->expr {"hidden" (&& $fetching-bears
                                  (= $bear-id 1))}))))
 
   (testing "edn to json conversion"
-    (is (= "({ \"my-signal\": \"init-value\" })"
+    (is (= "({\"my-signal\": \"init-value\"})"
            (->expr {:my-signal "init-value"})))))
 
 (deftest test-let-blocks
   (testing "let block with IIFE"
-    (is (= "(() => { const value1 = $my-signal; console.log((value1)); return (($my-signal) === (\"bear\")) && (@post(\"/foo\"));  })()"
+    (is (= "(() => { const value1 = $my-signal; console.log((value1)); return (($my-signal === \"bear\")) && (@post(\"/foo\"));  })()"
            (->expr
             (let [value $my-signal]
               (println value)
@@ -134,15 +134,15 @@
            (->expr (not $foo)))))
 
   (testing "negation of equality"
-    (is (= "(!((1) === (2)))"
+    (is (= "(!((1 === 2)))"
            (->expr (not (= 1 2))))))
 
   (testing "not equals"
-    (is (= "(!(((1) + (3)) === (4)))"
+    (is (= "(!(((1 + 3) === 4)))"
            (->expr (not= (+ 1 3) 4)))))
 
   (testing "not equals"
-    (is (= "(((!(((1) + (3)) === (4)))) ? ((@post(\"/not-equal\"))) : (null))"
+    (is (= "(((!(((1 + 3) === 4)))) ? ((@post(\"/not-equal\"))) : (null))"
            (->expr (when (not= (+ 1 3) 4) (@post "/not-equal"))))))
 
   (testing "toggle with negation"
@@ -183,13 +183,13 @@
 
 (deftest test-when-not
   (testing "when-not expression"
-    (is (= "(((1) === (1)) ? (null) : ($ui._mainMenuOpen = true))"
+    (is (= "(((1 === 1)) ? (null) : ($ui._mainMenuOpen = true))"
            (->expr (when-not (= 1 1)
                      (set! $ui._mainMenuOpen true)))))))
 
 (deftest test-bare-booleans
   (testing "when with bare boolean"
-    (is (= "((!!(false)) ? (($foo = true)) : (null))"
+    (is (= "((false) ? (($foo = true)) : (null))"
            (->expr (when false
                      (set! $foo true)))))))
 
