@@ -3,13 +3,13 @@
  :deps    {io.github.squint-cljs/squint {:git/url "https://github.com/squint-cljs/squint.git"
                                          :git/tag "v0.11.189"
                                          :git/sha "d6339b1"}
-           backtick/backtick            {:mvn/version "0.3.5"}}
+           backtick/backtick            {:mvn/version "0.4.0"}}
  :aliases {:dev    {:extra-paths ["dev"]
-                    :extra-deps  {org.clojure/clojure            {:mvn/version "1.12.1"}
+                    :extra-deps  {org.clojure/clojure            {:mvn/version "1.12.4"}
                                   dev.onionpancakes/chassis      {:mvn/version "1.0.365"}
-                                  metosin/reitit                 {:mvn/version "0.9.1"}
+                                  metosin/reitit                 {:mvn/version "0.10.1"}
                                   org.flatland/ordered           {:mvn/version "1.15.12"}
-                                  dev.data-star.clojure/sdk      {:mvn/version "1.0.0-RC1"}
+                                  dev.data-star.clojure/sdk      {:mvn/version "1.0.0-RC9"}
                                   dev.data-star.clojure/http-kit {:mvn/version "1.0.0-RC1"}}}
            :kaocha {:extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}}
                     :main-opts  ["-m" "kaocha.runner"]}
