@@ -6,6 +6,7 @@ ____
 
 image:https://img.shields.io/badge/doc-outskirtslabs-orange.svg[doc,link=https://docs.outskirtslabs.com/datastar-expressions/next/]
 image:https://img.shields.io/badge/status-experimental-red.svg[status: experimental,link=https://docs.outskirtslabs.com/open-source-vital-signs#experimental]
+image:https://ci.outskirtslabs.com/repos/github/outskirtslabs/datastar-expressions/badge.svg[alt=nixbot,link=https://ci.outskirtslabs.com/repos/github/outskirtslabs/datastar-expressions]
 
 `expressions` is a proof-of-concept for writing https://data-star.dev[🚀
 datastar] expressions using Clojure without manual string concatenation.
