@@ -1,18 +1,83 @@
 = starfederation.datastar.clojure.expressions
 
+[#--GT-js]
+== ->js
+
+_macro_
+
+
+
+[source,clojure]
+----
+(->js & forms)
+----
+
+Compiles Clojure forms into a composable Datastar expression.
+
+Returns an object whose string representation is JavaScript. Prefer this
+when composing generated expressions into other expressions.
+
+Example:
+
+[source,clojure]
+----
+(let [value (->js (.. evt -target -value))]
+  (str (->js (set! $signal ~value))))
+;; => $signal = evt.target.value
+----
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/feat/compose/src/starfederation/datastar/clojure/expressions.clj#L7-L21[source,window=_blank]
+
+'''
+
+[#--GT-js-str]
+== ->js-str
+
+_macro_
+
+
+
+[source,clojure]
+----
+(->js-str & forms)
+----
+
+Compiles Clojure forms into a Datastar expression string.
+
+Prefer <<--GT-js,`->js`>> when composing generated expressions; strings interpolate as
+string values.
+
+Example:
+
+[source,clojure]
+----
+(let [value (->js-str (.. evt -target -value))]
+  (->js-str (set! $signal ~value)))
+;; => $signal = "evt.target.value"
+----
+
+[.api-source]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/feat/compose/src/starfederation/datastar/clojure/expressions.clj#L23-L37[source,window=_blank]
+
+'''
+
 [#--GT-expr]
 == ->expr
+
+_macro_
+
+
 
 [source,clojure]
 ----
 (->expr & forms)
 ----
 
-Compiles a clojure form into a datastar expression.
+Compiles Clojure forms into a Datastar expression string.
 
-TODO docs 
-
-_macro_
+Backwards-compatible alias for <<--GT-js-str,`->js-str`>>. Prefer <<--GT-js,`->js`>> when composing
+generated expressions into other expressions.
 
 [.api-source]
-link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions.clj#L8-L15[source,window=_blank]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/feat/compose/src/starfederation/datastar/clojure/expressions.clj#L39-L45[source,window=_blank]

@@ -1,8 +1,8 @@
 {:paths ["src"]
 
  :deps    {io.github.squint-cljs/squint {:git/url "https://github.com/squint-cljs/squint.git"
-                                         :git/tag "v0.11.189"
-                                         :git/sha "d6339b1"}
+                                         ;;:git/tag "v0.11.189"
+                                         :git/sha "d6339b12c61d29dfb2d739ad8fd0e1175dfce452"}
            backtick/backtick            {:mvn/version "0.4.0"}}
  :aliases {:dev    {:extra-paths ["dev"]
                     :extra-deps  {org.clojure/clojure            {:mvn/version "1.12.4"}
