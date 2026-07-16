@@ -27,7 +27,7 @@ Example:
 ----
 
 [.api-source]
-link:https://github.com/outskirtslabs/datastar-expressions/blob/feat/compose/src/starfederation/datastar/clojure/expressions.clj#L7-L21[source,window=_blank]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions.clj#L7-L21[source,window=_blank]
 
 '''
 
@@ -58,7 +58,7 @@ Example:
 ----
 
 [.api-source]
-link:https://github.com/outskirtslabs/datastar-expressions/blob/feat/compose/src/starfederation/datastar/clojure/expressions.clj#L23-L37[source,window=_blank]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions.clj#L23-L37[source,window=_blank]
 
 '''
 
@@ -80,4 +80,4 @@ Backwards-compatible alias for <<--GT-js-str,`->js-str`>>. Prefer <<--GT-js,`->j
 generated expressions into other expressions.
 
 [.api-source]
-link:https://github.com/outskirtslabs/datastar-expressions/blob/feat/compose/src/starfederation/datastar/clojure/expressions.clj#L39-L45[source,window=_blank]
+link:https://github.com/outskirtslabs/datastar-expressions/blob/main/src/starfederation/datastar/clojure/expressions.clj#L39-L45[source,window=_blank]

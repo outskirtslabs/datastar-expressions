@@ -13,7 +13,11 @@
                                   dev.data-star.clojure/http-kit {:mvn/version "1.0.0-RC1"}}}
            :kaocha {:extra-deps {lambdaisland/kaocha {:mvn/version "1.91.1392"}}
                     :main-opts  ["-m" "kaocha.runner"]}
+           :build  {:deps       {io.github.clojure/tools.build {:mvn/version "0.10.14"}
+                                 slipset/deps-deploy           {:mvn/version "0.2.5"}}
+                    :ns-default build}
            :neil   {:project {:name        com.outskirtslabs/datastar-expressions
+                              :url         "https://github.com/outskirtslabs/datastar-expressions"
                               :license     {:id "MIT"}
                               :description "Clojure to Datastar expression transpiler"
                               :platforms   [:clj]

@@ -3,19 +3,78 @@
           :git/sha "e868e28b18a0496ec4d39878f0307cb1df17da22"}}
  :pods  {clj-kondo/clj-kondo {:version "2026.01.19"}}
  :paths []
- :tasks {:requires ([clojure.string :as str]
-                    [babashka.tasks :refer [shell]]
-                    [ol.bb-tasks.gen-docs :as gen-docs])
-         test (apply clojure "-M:kaocha" *command-line-args*)
-         fmt (shell "cljfmt -v fix dev src test")
-         fmt.check (shell "cljfmt -v check dev src test")
-         lint.copy-configs (let [cp (-> (shell {:out :string} "clojure -Spath -M:test:dev") :out str/trim)]
-                             (shell (str "clj-kondo --lint " cp " --dependencies --copy-configs --skip-lint")))
-         lint.kondo (shell "clj-kondo" *command-line-args*)
-         lint (shell (str "clj-kondo" " --fail-level error"
-                          (if (seq *command-line-args*)
-                            (str " --lint " (first *command-line-args*))
-                            " --lint .")))
-         ci {:depends [test fmt.check lint]}
-         gen-docs {:doc  "Generate all Antora documentation"
-                   :task (gen-docs/generate!)}}}
+ :tasks {:requires
+         ([clojure.string :as str]
+          [babashka.tasks :refer [shell]]
+          [ol.bb-tasks.gen-docs :as gen-docs])
+
+         :init
+         (do (def paths ["build.clj" "dev" "src" "test"]))
+
+         test
+         {:doc  "Run all tests or specific test suites"
+          :task (apply clojure "-M:kaocha" *command-line-args*)}
+
+         fmt
+         {:doc  "Format code with cljfmt"
+          :task (apply shell "cljfmt" "-v" "fix"
+                       (if (seq *command-line-args*) *command-line-args* paths))}
+
+         fmt:check
+         {:doc  "Check code formatting without making changes"
+          :task (apply shell "cljfmt" "-v" "check" paths)}
+
+         prep
+         {:doc  "Prepare Clojure dependencies"
+          :task (clojure "-X:deps" "prep" ":aliases" "[:dev :kaocha :build]")}
+
+         deps-lock
+         {:doc  "Regenerate deps-lock.json"
+          :task (shell "nix" "run" ".#locker")}
+
+         deps-tree
+         {:doc  "Show dependency tree"
+          :task (clojure "-X:deps" "tree" ":aliases" "[:dev :kaocha]")}
+
+         lint:copy-configs
+         {:doc  "Copy clj-kondo configs from dependencies"
+          :task (shell "clj-kondo"
+                       "--lint"
+                       (-> (shell {:out :string} "clojure" "-Spath" "-M:kaocha:dev")
+                           :out
+                           str/trim)
+                       "--dependencies"
+                       "--copy-configs"
+                       "--skip-lint")}
+
+         lint
+         {:doc  "Lint code with clj-kondo"
+          :task (apply shell
+                       "clj-kondo"
+                       "--fail-level"
+                       "error"
+                       "--lint"
+                       (if (seq *command-line-args*) *command-line-args* paths))}
+
+         qa
+         {:doc     "Run full quality assurance: format, lint, and test"
+          :depends [fmt lint test]}
+
+         ci
+         {:doc     "Run CI checks: test, format check, and lint"
+          :depends [test fmt:check lint]}
+
+         jar
+         {:override-builtin true
+          :depends          [clean]
+          :doc              "Build a library jar"
+          :task             (shell "clojure" "-T:build" "jar")}
+
+         clean
+         {:override-builtin true
+          :doc              "Clean build artifacts"
+          :task             (shell "clojure" "-T:build" "clean")}
+
+         gen-docs
+         {:doc  "Generate all Antora documentation"
+          :task (gen-docs/generate!)}}}

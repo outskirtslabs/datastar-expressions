@@ -1,0 +1,1467 @@
+{
+  "git": {
+    "io.github.squint-cljs/squint/d6339b12c61d29dfb2d739ad8fd0e1175dfce452": {
+      "common_dir": "https/github.com/squint-cljs/squint",
+      "rev": "d6339b12c61d29dfb2d739ad8fd0e1175dfce452",
+      "sha256": "1pgl4l60jy9xrd3mlnqf4jwci86d0c680s426wn0bqfiir9ilz1d",
+      "url": "https://github.com/squint-cljs/squint.git"
+    },
+    "outskirtslabs/bb-tasks/e868e28b18a0496ec4d39878f0307cb1df17da22": {
+      "common_dir": "https/github.com/outskirtslabs/bb-tasks",
+      "rev": "e868e28b18a0496ec4d39878f0307cb1df17da22",
+      "sha256": "1490l417pp032p6b3ghcnij443qy4pq9kadm72v1g2pn6ylpbsxb",
+      "url": "https://github.com/outskirtslabs/bb-tasks"
+    }
+  },
+  "maven": {
+    "aero/aero/1.1.6/aero-1.1.6.jar": {
+      "sha256": "f4b0a9272da50c8091c5529c9fe355c47234f1eeb95fe92296e2c23f787f3d22"
+    },
+    "aero/aero/1.1.6/aero-1.1.6.pom": {
+      "sha256": "5945cf8ead780f7497e86f298963f278681d519ae9b21be949fac5420f05d350"
+    },
+    "babashka/fs/0.1.6/fs-0.1.6.jar": {
+      "sha256": "d7474834e16fbb52a4d9b7b1aa6052ca4d01b9c671d1ff41598231c1a17556be"
+    },
+    "babashka/fs/0.1.6/fs-0.1.6.pom": {
+      "sha256": "0c691c71d29d32d618f02a509e8c70dfad3cc4a55688ec2c665ed86a8e7f269f"
+    },
+    "babashka/process/0.1.7/process-0.1.7.jar": {
+      "sha256": "c665a42ce6a125b931e2b6f326119633343f40783975bf174d57e66a918e3be3"
+    },
+    "babashka/process/0.1.7/process-0.1.7.pom": {
+      "sha256": "601eb4f11c5cf40c177a44ac515f766f1a5a8da8f99ed624cd4e0d3a4f99d5e4"
+    },
+    "backtick/backtick/0.4.0/backtick-0.4.0.jar": {
+      "sha256": "299d1a9d49edeb597135543e86045d462e2f1e1f9ad8d8f2288ce756276a730b"
+    },
+    "backtick/backtick/0.4.0/backtick-0.4.0.pom": {
+      "sha256": "726f6e26c1743d479ee2af930e7c63ec4190729770be76f4fe1793f2a5904d09"
+    },
+    "borkdude/dynaload/0.3.5/dynaload-0.3.5.jar": {
+      "sha256": "0887c0cdb9afcecd7c496ea258a32e43aa72e766f3f0632e1bd0f5245ca8c24c"
+    },
+    "borkdude/dynaload/0.3.5/dynaload-0.3.5.pom": {
+      "sha256": "5c1c228f1a29b06d0a7d03490f5e64faf713a3c6167298ba171cffc33cf9ed18"
+    },
+    "borkdude/edamame/1.4.30/edamame-1.4.30.pom": {
+      "sha256": "6a40b80971e66e74561972ddc656cd6336b88db37a3354ac85e82306c33b2615"
+    },
+    "borkdude/edamame/1.4.32/edamame-1.4.32.jar": {
+      "sha256": "f5780bf349368141545fe394386d671afa66b99861d0de0f79a6b9ec73622fd1"
+    },
+    "borkdude/edamame/1.4.32/edamame-1.4.32.pom": {
+      "sha256": "536866d0486eeb4af4fc331cf8bbe8a8bf2979f77744ff1b286e1bedfca7c634"
+    },
+    "borkdude/edamame/1.5.37/edamame-1.5.37.jar": {
+      "sha256": "4ee6060d5252d0b94a70839dbd0cbaf7d7cc4e81d9c277d2b3552f280b97c5a8"
+    },
+    "borkdude/edamame/1.5.37/edamame-1.5.37.pom": {
+      "sha256": "00b6c6a5941f676088456e5551ecf938b06127e9520cf63ba316f55303e1c86e"
+    },
+    "borkdude/graal.locking/0.0.2/graal.locking-0.0.2.jar": {
+      "sha256": "7859697555c154d72030ceb34534cfbaa70ac4b58984041d37850b53bdf7145e"
+    },
+    "borkdude/graal.locking/0.0.2/graal.locking-0.0.2.pom": {
+      "sha256": "f82be37af39794a9c2b62ea4dbbea644c869fbe3259b974ad4c759547e85b2f5"
+    },
+    "borkdude/sci.impl.reflector/0.0.5/sci.impl.reflector-0.0.5.jar": {
+      "sha256": "50b206ab59c818804a03f7edd99cc07c19adeb7f73787e8b2a288a8f16234f92"
+    },
+    "borkdude/sci.impl.reflector/0.0.5/sci.impl.reflector-0.0.5.pom": {
+      "sha256": "960e92860dc64db92a2c6dbcef067c0e80a34e351478526fa7bbf0e5c856d2c7"
+    },
+    "ch/qos/logback/logback-classic/1.0.12/logback-classic-1.0.12.jar": {
+      "sha256": "bb5437dc692a5c5af75b2fed36a4431e834b234399372c6c1f2dad9d9b072551"
+    },
+    "ch/qos/logback/logback-classic/1.0.12/logback-classic-1.0.12.pom": {
+      "sha256": "5d6373de946c3fad2f756a19f31a0d1f2c79f208320997c14005aa0b9ddebde0"
+    },
+    "ch/qos/logback/logback-core/1.0.12/logback-core-1.0.12.jar": {
+      "sha256": "2665527ca6b49076e1799d2e9c3679af617dc06c17cf6d7789685e95d57d704b"
+    },
+    "ch/qos/logback/logback-core/1.0.12/logback-core-1.0.12.pom": {
+      "sha256": "8e6752a7e0a95157b242278e18b4b2643985bd409231cb78198cca2d76792a0c"
+    },
+    "ch/qos/logback/logback-parent/1.0.12/logback-parent-1.0.12.pom": {
+      "sha256": "204693f0e95dc68379179a673b4e35d2fa72b2eab1d608b7d296bf5d7489604f"
+    },
+    "classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar": {
+      "sha256": "2bf4e59f3acd106fea6145a9a88fe8956509f8b9c0fdd11eb96fee757269e3f3"
+    },
+    "classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom": {
+      "sha256": "0cc647963b74ad1d7a37c9868e9e5a8f474e49297e1863582253a08a4c719cb1"
+    },
+    "clj-commons/pomegranate/1.3.27/pomegranate-1.3.27.jar": {
+      "sha256": "c1dc57a12888b9c203bd4b0c9e9801267a24aa92c37a2544afca7f5ceead8baf"
+    },
+    "clj-commons/pomegranate/1.3.27/pomegranate-1.3.27.pom": {
+      "sha256": "2a2cc215b6469e967c4e02bbf0d6592f257686d37d049dbb21fa77d9267ba9f4"
+    },
+    "com/amazonaws/aws-java-sdk-bom/1.12.49/aws-java-sdk-bom-1.12.49.pom": {
+      "sha256": "bde936d86cf314acd9789008beb884a1fd790923d82b169e321feeb363996396"
+    },
+    "com/amazonaws/aws-java-sdk-core/1.12.49/aws-java-sdk-core-1.12.49.jar": {
+      "sha256": "e14683558e39ff2387888f6784de1457fbbe2fbca139de2548b432c90cd66da8"
+    },
+    "com/amazonaws/aws-java-sdk-core/1.12.49/aws-java-sdk-core-1.12.49.pom": {
+      "sha256": "f43f69bcfa2d9fe47647a955a79778c7dc44583745d4167f9f1543a964700686"
+    },
+    "com/amazonaws/aws-java-sdk-kms/1.12.49/aws-java-sdk-kms-1.12.49.jar": {
+      "sha256": "ba048dd7cd4e4e05cf52af6e1040ae9a837623f557493baada141f0b187ddeb8"
+    },
+    "com/amazonaws/aws-java-sdk-kms/1.12.49/aws-java-sdk-kms-1.12.49.pom": {
+      "sha256": "6845140a96c3a0db2a1f2271d8f3e4f2708df3468fdeaf6e765c5ba51490e70c"
+    },
+    "com/amazonaws/aws-java-sdk-pom/1.12.49/aws-java-sdk-pom-1.12.49.pom": {
+      "sha256": "75bb79a5d7dc8c4c263be43a6df807d9348d4acd9ff46a01a988917fe73a75d6"
+    },
+    "com/amazonaws/aws-java-sdk-s3/1.12.49/aws-java-sdk-s3-1.12.49.jar": {
+      "sha256": "e68567994242bd0a43810bee965bf706a8ddc78565ef6033d87a4ef616b9589e"
+    },
+    "com/amazonaws/aws-java-sdk-s3/1.12.49/aws-java-sdk-s3-1.12.49.pom": {
+      "sha256": "551180b81d1526dacfac1f78a5168c5ebde9a635177b7327de78e8f14e07405c"
+    },
+    "com/amazonaws/aws-java-sdk-sts/1.12.49/aws-java-sdk-sts-1.12.49.jar": {
+      "sha256": "fc062044bea46ecd1b51147865e0c7c1d9c3562d818ff9e590e2c685d83a1c90"
+    },
+    "com/amazonaws/aws-java-sdk-sts/1.12.49/aws-java-sdk-sts-1.12.49.pom": {
+      "sha256": "72e399ad1b4383fb8ec26654ec1019cdeaebb8d2fa673f0f2c9af9bafd2e801d"
+    },
+    "com/amazonaws/jmespath-java/1.12.49/jmespath-java-1.12.49.jar": {
+      "sha256": "1b3410863ce40e673c6642ab7700b06f2a28f72c21513a42fa27851ab130be03"
+    },
+    "com/amazonaws/jmespath-java/1.12.49/jmespath-java-1.12.49.pom": {
+      "sha256": "2b7abc740a413396f32caea740f2187af8c7aa728337e13b4c72327f46e10f7a"
+    },
+    "com/bhauman/spell-spec/0.1.2/spell-spec-0.1.2.jar": {
+      "sha256": "bb1d70695549276847eb5b2058dc177392d685aacdbe0932f9d5a733e27bfde3"
+    },
+    "com/bhauman/spell-spec/0.1.2/spell-spec-0.1.2.pom": {
+      "sha256": "087cd060fc515172f9b5d5d525b488cc4f1525ab251a5a37502b55415e387cfe"
+    },
+    "com/cognitect/aws/api/0.8.824/api-0.8.824.jar": {
+      "sha256": "4419ad593f5dd1852100aa4fb34afe1ff54b1f24251886666ba30db5cc4169ec"
+    },
+    "com/cognitect/aws/api/0.8.824/api-0.8.824.pom": {
+      "sha256": "94f1744d7c05f9f358a490289e46da90d6e82c702ea910dcc87668062f2791b8"
+    },
+    "com/cognitect/aws/endpoints/871.2.44.12/endpoints-871.2.44.12.jar": {
+      "sha256": "2e1c2adb798b74e08dc3bb75544e5f9907e54f4996dcbaa8d19c893aa16aff26"
+    },
+    "com/cognitect/aws/endpoints/871.2.44.12/endpoints-871.2.44.12.pom": {
+      "sha256": "4a6577cee3008ef1548fe0f18ef98a57c077943020ee2c2fe3f62ecee6fa40b7"
+    },
+    "com/cognitect/aws/s3/871.2.43.0/s3-871.2.43.0.jar": {
+      "sha256": "613341df6a0a295180efda19ff10eab8934b8609ab7aa8268c4a02f4f330602d"
+    },
+    "com/cognitect/aws/s3/871.2.43.0/s3-871.2.43.0.pom": {
+      "sha256": "00f0718dbb06d92bd47cbf9af08a829ace95a3446c47cefc3b73dc315167cb5a"
+    },
+    "com/cognitect/transit-clj/1.0.333/transit-clj-1.0.333.jar": {
+      "sha256": "8e0352a002cf95ddeb52770b950c1eb5ea96b7351fce39e0fee93e21ca63befb"
+    },
+    "com/cognitect/transit-clj/1.0.333/transit-clj-1.0.333.pom": {
+      "sha256": "876ba5387d847ca335447ea34adf542b17d1b07748ecbdc901a870bfcc77a833"
+    },
+    "com/cognitect/transit-java/1.0.371/transit-java-1.0.371.jar": {
+      "sha256": "9267acceaa6bc8e89d5cbf65f847838647876d721af208324e38cd0040b23696"
+    },
+    "com/cognitect/transit-java/1.0.371/transit-java-1.0.371.pom": {
+      "sha256": "073f55f4f01fc2a77b2b51b9403ec5609b4b0bf0ae1dbcebc48e223744c97bbf"
+    },
+    "com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar": {
+      "sha256": "f6aa3706a875689b66cdac3334f65dfdb795ccfad4117bf072893b196ed1ec8e"
+    },
+    "com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.pom": {
+      "sha256": "c57507447e303bdf85f8e67eef7a88e1ef9199c2659b834445462c203339e993"
+    },
+    "com/fasterxml/jackson/core/jackson-annotations/2.21/jackson-annotations-2.21.jar": {
+      "sha256": "53ca085f4a150f703f49e1aabd935bd03b43e1ea3d55d135438292af22cef56b"
+    },
+    "com/fasterxml/jackson/core/jackson-annotations/2.21/jackson-annotations-2.21.pom": {
+      "sha256": "71cac5392151e2a528cc9a09179f0a334179f05c52f8e596cf58ddf12bb27f2b"
+    },
+    "com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar": {
+      "sha256": "3506ce47ec2604ae2d80d79505f7cb374f718060639415c07d144adadd2d68a3"
+    },
+    "com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.pom": {
+      "sha256": "0750051ae144c11f72309741e78d0134d13b294f4ce4f7900a3a203564324311"
+    },
+    "com/fasterxml/jackson/core/jackson-core/2.21.1/jackson-core-2.21.1.jar": {
+      "sha256": "1edd5f2e49dca5f8e4519957c24b7b3050bd1c7ee883920da33cff031ff1f7c0"
+    },
+    "com/fasterxml/jackson/core/jackson-core/2.21.1/jackson-core-2.21.1.pom": {
+      "sha256": "0f3fb5eb9e8970449ac0cb98e2f8e7b513d2d4ec5b1a4f02e22778e4f7bab8d7"
+    },
+    "com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar": {
+      "sha256": "e99a7b4b89074bc689aabcd9eb1f2c1318b68cc5c34979daf3e34edc558c7a01"
+    },
+    "com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.pom": {
+      "sha256": "99437e8df609a6f251a0c1d4ac06103b6aa4953e8c2c9c86f744cd7105c82468"
+    },
+    "com/fasterxml/jackson/core/jackson-databind/2.21.1/jackson-databind-2.21.1.jar": {
+      "sha256": "b011eb5202d9ec889e27f1dcbdf6c63f06a76e7a16c0a1b30c6048d556c9a28e"
+    },
+    "com/fasterxml/jackson/core/jackson-databind/2.21.1/jackson-databind-2.21.1.pom": {
+      "sha256": "bd4817d0b91794aff6f4b116b576bfedc9277be2d6c651c9566f552222c6a550"
+    },
+    "com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.3/jackson-dataformat-cbor-2.12.3.jar": {
+      "sha256": "3148d4aced3f48b028bdc32fb63b38451a6a7716918c76287f9c0e522fc05dcd"
+    },
+    "com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.3/jackson-dataformat-cbor-2.12.3.pom": {
+      "sha256": "51be6348b9143023f560c6f2833cd82663617e7c3c93527524f3a6921c8b69f1"
+    },
+    "com/fasterxml/jackson/dataformat/jackson-dataformats-binary/2.12.3/jackson-dataformats-binary-2.12.3.pom": {
+      "sha256": "eeea40ed99ecdbc671e153fc43b3be9518ba03a4f01421cd2a2662af97f28451"
+    },
+    "com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.21.1/jackson-datatype-jsr310-2.21.1.jar": {
+      "sha256": "4d63378b0a6b53733f086ebd301023ba211b9387e417bd584a5400320cd08b8d"
+    },
+    "com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.21.1/jackson-datatype-jsr310-2.21.1.pom": {
+      "sha256": "74c5ce8ca0ea08ef319d5a6ce62424dfd9cb93dadc01ef9817873fb7f6699bae"
+    },
+    "com/fasterxml/jackson/jackson-base/2.12.3/jackson-base-2.12.3.pom": {
+      "sha256": "6a4a336f79322d1f50e570dae3c53541a380739ed8a6ad56c3e609b32192bb57"
+    },
+    "com/fasterxml/jackson/jackson-base/2.12.4/jackson-base-2.12.4.pom": {
+      "sha256": "1921aee85bebabf016ea50583ab9b411d510b77558f56823dcb4ba57c5b97ff9"
+    },
+    "com/fasterxml/jackson/jackson-base/2.21.1/jackson-base-2.21.1.pom": {
+      "sha256": "60d4eb66a000a33fa37e7cb51e2550dabe7467a0b8ac60806d7d3ba9728ccd64"
+    },
+    "com/fasterxml/jackson/jackson-bom/2.12.3/jackson-bom-2.12.3.pom": {
+      "sha256": "505131050d8b5d4a814f27f32bc439187b1ab863d6587d496eba4cba8cc0e02a"
+    },
+    "com/fasterxml/jackson/jackson-bom/2.12.4/jackson-bom-2.12.4.pom": {
+      "sha256": "eb3e73beeeb8aca955643c38b994dda6fb0cebc319676f80ead5fb9ecaff6e3d"
+    },
+    "com/fasterxml/jackson/jackson-bom/2.21.1/jackson-bom-2.21.1.pom": {
+      "sha256": "8d7c78dde10f4d08e7296cef084cf30b77adcea7a36e23d1520793fdec63ff28"
+    },
+    "com/fasterxml/jackson/jackson-parent/2.12/jackson-parent-2.12.pom": {
+      "sha256": "62aa1c1679ade09f173dbf1b6c32d35c55e75800238fd5e48f13aa4337c0875b"
+    },
+    "com/fasterxml/jackson/jackson-parent/2.21/jackson-parent-2.21.pom": {
+      "sha256": "3851df627faeb46887b956104630b74a8bbb5f7de22e974cf15982e20e0373de"
+    },
+    "com/fasterxml/jackson/module/jackson-modules-java8/2.21.1/jackson-modules-java8-2.21.1.pom": {
+      "sha256": "80dfdc6f2f76fa4c065e11dc74531a02447245f1415b3a1270281ffcd8c92b5a"
+    },
+    "com/fasterxml/oss-parent/41/oss-parent-41.pom": {
+      "sha256": "af650fa4dd400bc5769320bcef08ed93813f349cabe8213d469acafbbd945d8a"
+    },
+    "com/fasterxml/oss-parent/75/oss-parent-75.pom": {
+      "sha256": "fcbbf1c18c9047e6917d384f2064e21b42a58fc85fb0523a9e2e015eff7c619d"
+    },
+    "com/google/code/gson/gson-parent/2.13.2/gson-parent-2.13.2.pom": {
+      "sha256": "83ab528a9d50fd76aeb8ad6f727b3ee9cb766586255774ed16ca8c4c76d9dacd"
+    },
+    "com/google/code/gson/gson/2.13.2/gson-2.13.2.jar": {
+      "sha256": "dd0ce1b55a3ed2080cb70f9c655850cda86c206862310009dcb5e5c95265a5e0"
+    },
+    "com/google/code/gson/gson/2.13.2/gson-2.13.2.pom": {
+      "sha256": "3aa06aa7c0f9af092961a42d09578e4324be146348a0ee6ed47857f7c2677b76"
+    },
+    "com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar": {
+      "sha256": "a56e782b5b50811ac204073a355a21d915a2107fce13ec711331ad036f660fcc"
+    },
+    "com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.pom": {
+      "sha256": "a151df1e2e0b48618d8b06a180748a29b3abb39b1b2396f6a1c879a727488c6e"
+    },
+    "com/google/errorprone/error_prone_parent/2.41.0/error_prone_parent-2.41.0.pom": {
+      "sha256": "c538388d760a5c1c98dcf06f6ed3cfe5f11a651827db5cbd2ed8288c795cad42"
+    },
+    "com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar": {
+      "sha256": "4e69696892b88b41c55d49ab2fdcc21eead92bf54acc588c0050596c3b75199c"
+    },
+    "com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom": {
+      "sha256": "665f63590defb63d62add21d3525362cf937cf6a1c05e4b0145bae8da8a57f83"
+    },
+    "com/jcraft/jsch.agentproxy.connector-factory/0.0.9/jsch.agentproxy.connector-factory-0.0.9.jar": {
+      "sha256": "30fffe206fc598b464b255ae0300b1088fb9b47501e0266831c0167d36639884"
+    },
+    "com/jcraft/jsch.agentproxy.connector-factory/0.0.9/jsch.agentproxy.connector-factory-0.0.9.pom": {
+      "sha256": "8d473b84d0810fcbf77cd7580824e15fea9dde273769eab8b18f13f22d4e7e77"
+    },
+    "com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.jar": {
+      "sha256": "0ccda6cd8ec515bee1fef22d7737b52ac52d1c64c075d4d988136b60125a1eff"
+    },
+    "com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.pom": {
+      "sha256": "b7e69363d34db07133fa23b9867d6e9208e99c074813d7ed870386c8b9eba880"
+    },
+    "com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar": {
+      "sha256": "08d78397a3da46ad70604d35f4efae34ed81894b4e2ae98ad7662a2c9fc0cbe1"
+    },
+    "com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.pom": {
+      "sha256": "e66b1582bbc2eb72b69c987e4451935621bc4fa563cc0c75ecfedd441315150f"
+    },
+    "com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.jar": {
+      "sha256": "737ad86ce82b56152f4f463fc00fb5b4b1dab9dab095e356bcc488c49cfc32a8"
+    },
+    "com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.pom": {
+      "sha256": "1be6a5832bf901e599883448d7fe24969446d7cd7de875e57ad0540fa4815bb1"
+    },
+    "com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.jar": {
+      "sha256": "10a27a381f10b5efc33acd4f4200dda9fc9e70d304c8aad52e713064ee6f4655"
+    },
+    "com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.pom": {
+      "sha256": "78e18654b67ae5447dce240357fb7d557423ead3f5f2f7dd6fb9e7284276dd99"
+    },
+    "com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.jar": {
+      "sha256": "a5a0f8d3c1c5fb2df2abc4cb68d79b38e71fb37fc2a84d898d2f775150f43a5f"
+    },
+    "com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.pom": {
+      "sha256": "4be21ca44bab12182fa3517a2cd73d5e4552b1a85d7d375042ff9e3951ab5034"
+    },
+    "com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.jar": {
+      "sha256": "eab73aaf832a88c39c7e86559cacc6e7938948ce6f8e8c0e44811ef062ac9e63"
+    },
+    "com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.pom": {
+      "sha256": "894a9c52911d4091789a497bd26d24b6a9b930617d10f456c2a91336f5707d1c"
+    },
+    "com/jcraft/jsch.agentproxy/0.0.9/jsch.agentproxy-0.0.9.pom": {
+      "sha256": "a9aac5a8596492f9004d3e8aea94e331ec8ca4f9e7f6b61ecd383777b8fa62af"
+    },
+    "com/jcraft/jsch/0.1.55/jsch-0.1.55.jar": {
+      "sha256": "d492b15a6d2ea3f1cc39c422c953c40c12289073dbe8360d98c0f6f9ec74fc44"
+    },
+    "com/jcraft/jsch/0.1.55/jsch-0.1.55.pom": {
+      "sha256": "747c748d1f01071ea3d0f8476f68d4a823a313b772701d8551c93eaaa57f9f99"
+    },
+    "com/nextjournal/beholder/1.0.2/beholder-1.0.2.jar": {
+      "sha256": "89038c4db89d203bb5b12a5fb1adaa9295e05a2ac4b24faed996c934ea89d17a"
+    },
+    "com/nextjournal/beholder/1.0.2/beholder-1.0.2.pom": {
+      "sha256": "2d12644867503df2e87868cbc14ddd7852a86ae9b6756fd0278ea508ad1de2ee"
+    },
+    "com/sun/activation/all/1.2.0/all-1.2.0.pom": {
+      "sha256": "1d8518e3ac7532a104e4f7be77def37c982e530723c6bdb3d67708cce2b0c2c4"
+    },
+    "commons-codec/commons-codec/1.15/commons-codec-1.15.jar": {
+      "sha256": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
+    },
+    "commons-codec/commons-codec/1.15/commons-codec-1.15.pom": {
+      "sha256": "c86ee198a35a3715487860f419cbf642e7e4d9e8714777947dbe6a4e3a20ab58"
+    },
+    "commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.pom": {
+      "sha256": "aff645c58cd41ac5184d976ce8ee38de5694d99ab8764d6ee7f14f70ead5f98b"
+    },
+    "commons-codec/commons-codec/1.21.0/commons-codec-1.21.0.jar": {
+      "sha256": "4da851cb6abfb98bfe9eb77c5e5fc47f5414fa28b94e21b7fd9a646705dc167f"
+    },
+    "commons-codec/commons-codec/1.21.0/commons-codec-1.21.0.pom": {
+      "sha256": "b230416ba6f5bf9df8fcb6e7f4a6c26b8fb0fe85ce371d13d5846ed3768309b7"
+    },
+    "commons-io/commons-io/2.20.0/commons-io-2.20.0.jar": {
+      "sha256": "df90bba0fe3cb586b7f164e78fe8f8f4da3f2dd5c27fa645f888100ccc25dd72"
+    },
+    "commons-io/commons-io/2.20.0/commons-io-2.20.0.pom": {
+      "sha256": "bdbdf81072c190ee9a8b181a5c58f5bd917a750fb13a256debbf53f5dbd33a2a"
+    },
+    "commons-logging/commons-logging/1.3.6/commons-logging-1.3.6.jar": {
+      "sha256": "f8ead8943401081dea0aa824b5b1ba40a0e4ed297a572a0f02258150a0b62357"
+    },
+    "commons-logging/commons-logging/1.3.6/commons-logging-1.3.6.pom": {
+      "sha256": "49fc185139bdd0c6c4adf440721e3279cb5342906bcd01a7a89399ceeaa78e85"
+    },
+    "crypto-equality/crypto-equality/1.0.1/crypto-equality-1.0.1.jar": {
+      "sha256": "ee15cc0b76dcf73f8fc86d02e9effed7160a8a6b40b2f0e9de72e3dd25ed4bdf"
+    },
+    "crypto-equality/crypto-equality/1.0.1/crypto-equality-1.0.1.pom": {
+      "sha256": "632e5702d5d356193d18a50de0a261a19c14aad608734e464e85a3600e74f44b"
+    },
+    "crypto-random/crypto-random/1.2.1/crypto-random-1.2.1.jar": {
+      "sha256": "5c128846d7b66d53c5e9726773b872f7e02844ff651a996a5e3452a1523ae52c"
+    },
+    "crypto-random/crypto-random/1.2.1/crypto-random-1.2.1.pom": {
+      "sha256": "d8e80b034285325e905f54649a1598b687b9a4a99a3a4f4b94eed3597cb21048"
+    },
+    "dev/data-star/clojure/http-kit/1.0.0-RC1/http-kit-1.0.0-RC1.jar": {
+      "sha256": "3f741cbe2224e895ad1bb1ff2ddf8c84f15bce23d912d209b5a7e9a97e7491cc"
+    },
+    "dev/data-star/clojure/http-kit/1.0.0-RC1/http-kit-1.0.0-RC1.pom": {
+      "sha256": "ef83c9df193f0a0be80ca32e1bf9565f2ef8dce98ac5d76ed015f207ebf586f3"
+    },
+    "dev/data-star/clojure/sdk/1.0.0-RC9/sdk-1.0.0-RC9.jar": {
+      "sha256": "381418d72c0bf32257c8d2c0e840c00b5636da6f847cc3a2c76167f6143cebbf"
+    },
+    "dev/data-star/clojure/sdk/1.0.0-RC9/sdk-1.0.0-RC9.pom": {
+      "sha256": "a341f3d6ddf80955eea35efd8cf036ad18781f13bbd0bc01bc3b698ad1aeecfc"
+    },
+    "dev/onionpancakes/chassis/1.0.365/chassis-1.0.365.jar": {
+      "sha256": "a6fed178bb5803f5f2a898de2b8f1118d0f8e9799ef906313a82692ea1f44277"
+    },
+    "dev/onionpancakes/chassis/1.0.365/chassis-1.0.365.pom": {
+      "sha256": "c3d0705f747fffd4d018403f43d7995dafaa79745121e7a7ef77547f92f59f5e"
+    },
+    "eu/maveniverse/maven/mima/context/2.4.44/context-2.4.44.jar": {
+      "sha256": "81f0dab4c5f0cf59a53faf8b864960b1629d7d7f174f0c26ed6319e2fec1984d"
+    },
+    "eu/maveniverse/maven/mima/context/2.4.44/context-2.4.44.pom": {
+      "sha256": "11e2557dd55607426c60af45d8f03fc4bc5d74484c4fd4998aeb41b404deaf3f"
+    },
+    "eu/maveniverse/maven/mima/extensions/extensions/2.4.44/extensions-2.4.44.pom": {
+      "sha256": "f354f5203b2750c6884eb1564ef9ed6413135a3ea6ddfa4405e58350a53e4982"
+    },
+    "eu/maveniverse/maven/mima/extensions/mhc4/2.4.44/mhc4-2.4.44.jar": {
+      "sha256": "a43380cb2123b606d2440d14dbbdfe9208d1dc3f36559719829f94c791c2885f"
+    },
+    "eu/maveniverse/maven/mima/extensions/mhc4/2.4.44/mhc4-2.4.44.pom": {
+      "sha256": "47a3e6a4aa47aeeaeb33e74dff04f2b3e7c1293ddbd4e8b56601ccd3dbd52408"
+    },
+    "eu/maveniverse/maven/mima/extensions/mmr/2.4.44/mmr-2.4.44.jar": {
+      "sha256": "6ddf44ea76c9ad60afefd09f1255b9793edee63560bce4699a240abf168aaaf2"
+    },
+    "eu/maveniverse/maven/mima/extensions/mmr/2.4.44/mmr-2.4.44.pom": {
+      "sha256": "bd43e2826f4dcf9834d872b0a3b4e9a32a3d62a3f5bd5c0d358f5a141d958cea"
+    },
+    "eu/maveniverse/maven/mima/mima/2.4.44/mima-2.4.44.pom": {
+      "sha256": "326e4ffdc42ac1078de173df4ab67e3c5c609402b20ac4fb9de2eb58aa638ce4"
+    },
+    "eu/maveniverse/maven/mima/runtime/runtime/2.4.44/runtime-2.4.44.pom": {
+      "sha256": "10842cbbaba075b62a0e0fbe44d95da53d5ae4f93be606d532a55b2694e49747"
+    },
+    "eu/maveniverse/maven/mima/runtime/standalone-shared/2.4.44/standalone-shared-2.4.44.jar": {
+      "sha256": "aee5e7c077f7968da9bf0ba11bd20574e054ed75ea71065a6dd4552da87b21a2"
+    },
+    "eu/maveniverse/maven/mima/runtime/standalone-shared/2.4.44/standalone-shared-2.4.44.pom": {
+      "sha256": "4564c944cc92cebaa0b6044567f8f4332ed94c369db1ee5c6048fd56729ded2e"
+    },
+    "eu/maveniverse/maven/mima/runtime/standalone-static/2.4.44/standalone-static-2.4.44.jar": {
+      "sha256": "e9f2981e9f32723b74569ac5a829abd0e34bf6a5961d1e6578d7b284fedc36e4"
+    },
+    "eu/maveniverse/maven/mima/runtime/standalone-static/2.4.44/standalone-static-2.4.44.pom": {
+      "sha256": "9665fea6eb496d21923c53620a72bc11aa28b7ce4aa9f743c00fd5847e26ff25"
+    },
+    "eu/maveniverse/maven/parent/parent/52/parent-52.pom": {
+      "sha256": "ec0c2694d9958218506861f70a4c202efa746d7675b3a61ddcd95be43715f6ab"
+    },
+    "expound/expound/0.9.0/expound-0.9.0.jar": {
+      "sha256": "d6a372609918e0351bfa6a8bd693d18bc199e8ba7aafaec11e895afae018f95c"
+    },
+    "expound/expound/0.9.0/expound-0.9.0.pom": {
+      "sha256": "90948e0c3dccbc4f1a0af680056b9ed898b301cbed2dde3ff42479796997c5d9"
+    },
+    "fi/metosin/reitit-openapi/0.10.1/reitit-openapi-0.10.1.jar": {
+      "sha256": "99d5a13fa98ac224e35326a1fbee64780ab141f0dba240741fb6fdea9bed5d3a"
+    },
+    "fi/metosin/reitit-openapi/0.10.1/reitit-openapi-0.10.1.pom": {
+      "sha256": "39a6b022fbf41a092e6702ba30016d9aecb0df335c62265577ae8afc88a90760"
+    },
+    "fipp/fipp/0.6.26/fipp-0.6.26.jar": {
+      "sha256": "f7cb696cce55afd74c838d5441419c7e5f6d491af185a8e563dfa79796857283"
+    },
+    "fipp/fipp/0.6.26/fipp-0.6.26.pom": {
+      "sha256": "a7ec6357b81321132fd07c2f57efeb02114415594363d83a14313a194f5f5535"
+    },
+    "fipp/fipp/0.6.29/fipp-0.6.29.jar": {
+      "sha256": "db6789a035c013ce11a991eb3818882d68d47fa6a9eee4627b2e0d9e1bef05f2"
+    },
+    "fipp/fipp/0.6.29/fipp-0.6.29.pom": {
+      "sha256": "3aa5f4ad18fbeda949e1f6bc84ddd11e09dceab47f254c0908963aa382f009c5"
+    },
+    "hawk/hawk/0.2.11/hawk-0.2.11.jar": {
+      "sha256": "e943f2f0c487c6c5a6b20e70ce91dd5f31e40489570917bba13fcea73c9a7a43"
+    },
+    "hawk/hawk/0.2.11/hawk-0.2.11.pom": {
+      "sha256": "ab83f3a161d4639dd6d936568a13e9c3ea970784165959d2d625b75a5bc8c458"
+    },
+    "http-kit/http-kit/2.9.0-alpha4/http-kit-2.9.0-alpha4.jar": {
+      "sha256": "81ebe3ee2e89d6ead81b3b899ee99ea98f515592a08c5ee45940152f580cabb5"
+    },
+    "http-kit/http-kit/2.9.0-alpha4/http-kit-2.9.0-alpha4.pom": {
+      "sha256": "e480ce81f3e2a6e8e9deafb8805c78c357b1bbdc0a05e19410ef4f2363de0190"
+    },
+    "io/github/clojure/tools.build/0.10.14/tools.build-0.10.14.jar": {
+      "sha256": "e95329eee72a2f2ff22c1ac41ac699709ecf860b8aa0709fadb2331751a9d74c"
+    },
+    "io/github/clojure/tools.build/0.10.14/tools.build-0.10.14.pom": {
+      "sha256": "e0188f0ad99902c9f77b043776ec42035e4133295890dbfe960bc244e4ed5f18"
+    },
+    "io/methvin/directory-watcher/0.17.3/directory-watcher-0.17.3.jar": {
+      "sha256": "0523dd38a393a63b75e4320ff523034a0ac3cea697f6151a7ac8a893c322531e"
+    },
+    "io/methvin/directory-watcher/0.17.3/directory-watcher-0.17.3.pom": {
+      "sha256": "63f0b8cd1d4da349b60df93891d1e00c5d3fd2c9bd33d8e5beed075a28cd8854"
+    },
+    "javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar": {
+      "sha256": "43fdef0b5b6ceb31b0424b208b930c74ab58fac2ceeb7b3f6fd3aeb8b5ca4393"
+    },
+    "javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.pom": {
+      "sha256": "da2926f3c8be898643cc10acdec6de0b0351a57fb2735770fa0177b06ade71b9"
+    },
+    "javax/inject/javax.inject/1/javax.inject-1.jar": {
+      "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+    },
+    "javax/inject/javax.inject/1/javax.inject-1.pom": {
+      "sha256": "943e12b100627804638fa285805a0ab788a680266531e650921ebfe4621a8bfa"
+    },
+    "javax/xml/bind/jaxb-api-parent/2.4.0-b180830.0359/jaxb-api-parent-2.4.0-b180830.0359.pom": {
+      "sha256": "72d132e2c858d2230f15d048f1e93a279c40c4e9ec84bc56f9f2f3eb5af4b4b8"
+    },
+    "javax/xml/bind/jaxb-api/2.4.0-b180830.0359/jaxb-api-2.4.0-b180830.0359.jar": {
+      "sha256": "56b9e9702753763007435162ea788055efcfefc86ab920f032c0411dc547b836"
+    },
+    "javax/xml/bind/jaxb-api/2.4.0-b180830.0359/jaxb-api-2.4.0-b180830.0359.pom": {
+      "sha256": "b1c93fc301d7f5fe4cde13d1953299251da37efffc91f523835504c3ff873707"
+    },
+    "joda-time/joda-time/2.8.1/joda-time-2.8.1.jar": {
+      "sha256": "b4670b95f75957c974284c5f3ada966040be2578f643c5c6083d262162061fa2"
+    },
+    "joda-time/joda-time/2.8.1/joda-time-2.8.1.pom": {
+      "sha256": "18ba5cfdff96091e0019895361446079d91235ee566cb1d497639c1ace629d78"
+    },
+    "junit/junit/3.8.1/junit-3.8.1.jar": {
+      "sha256": "b58e459509e190bed737f3592bc1950485322846cf10e78ded1d065153012d70"
+    },
+    "junit/junit/3.8.1/junit-3.8.1.pom": {
+      "sha256": "e68f33343d832398f3c8aa78afcd808d56b7c1020de4d3ad8ce47909095ee904"
+    },
+    "lambdaisland/clj-diff/1.4.78/clj-diff-1.4.78.jar": {
+      "sha256": "a28bc6e4b29523cc29a472e57e6eab9580fa0d0368ad7be58b2a47e891a1459c"
+    },
+    "lambdaisland/clj-diff/1.4.78/clj-diff-1.4.78.pom": {
+      "sha256": "d9067a9858f1efe506236df63d4af70b3b107a7a9dfb1711b1ba84a71b37db0d"
+    },
+    "lambdaisland/deep-diff/0.0-47/deep-diff-0.0-47.jar": {
+      "sha256": "7da94be32caf704e0f1d3b9a9c9abfec6da74b5bb8070b94d1df91fcdb3d879e"
+    },
+    "lambdaisland/deep-diff/0.0-47/deep-diff-0.0-47.pom": {
+      "sha256": "d4f5f35141ecb6be6123ffa83c84141a880eef8e1bca7030d99a28e474a34db1"
+    },
+    "lambdaisland/deep-diff2/2.11.216/deep-diff2-2.11.216.jar": {
+      "sha256": "536cc96663c83bae84b64830c1fc98e35b91caed834665c7d2880d7e5bb0e518"
+    },
+    "lambdaisland/deep-diff2/2.11.216/deep-diff2-2.11.216.pom": {
+      "sha256": "a24de7612fbc5c27024cf24892a68ed52407eafd843702b619925d1f47380f6d"
+    },
+    "lambdaisland/kaocha/1.91.1392/kaocha-1.91.1392.jar": {
+      "sha256": "5bb115d4cab178856ac93cadea557dbe966b2d173e4d640a9e635f88fa227ae8"
+    },
+    "lambdaisland/kaocha/1.91.1392/kaocha-1.91.1392.pom": {
+      "sha256": "a7afb472eb85625254e589611886e7b87b7577ac8e657c7f161c0033ac02cb38"
+    },
+    "lambdaisland/tools.namespace/0.3.256/tools.namespace-0.3.256.jar": {
+      "sha256": "8edd78d658e48eff7b7ad4d313df79cd99ea8997e8167cadd20da1c26b8e53c3"
+    },
+    "lambdaisland/tools.namespace/0.3.256/tools.namespace-0.3.256.pom": {
+      "sha256": "9fee3a0578f2e7b03cf3df045e0ca9944cb2a9ffd2e6aa1c7f5e3465b82557ae"
+    },
+    "meta-merge/meta-merge/1.0.0/meta-merge-1.0.0.jar": {
+      "sha256": "d7fee2e3e3d706e0e54562e72aa3712108d70186a12cbc090e10680582eb02c7"
+    },
+    "meta-merge/meta-merge/1.0.0/meta-merge-1.0.0.pom": {
+      "sha256": "b00a20658fcecc2bd1341031f394f52d68c53fb480c4454134ccaac204ea5931"
+    },
+    "metosin/jsonista/0.3.14/jsonista-0.3.14.jar": {
+      "sha256": "5f643c7a754f45de0c6767be4569b26ca3fc4629a03eaf426aa8420c0192bac7"
+    },
+    "metosin/jsonista/0.3.14/jsonista-0.3.14.pom": {
+      "sha256": "3bb72dffd9970e5432035e4829a288a5ddce38dcfc1178e20b1efa397de32f5d"
+    },
+    "metosin/malli/0.20.1/malli-0.20.1.jar": {
+      "sha256": "45a68c238b6c5d197629750f1a63cc5aa6d045456b0a945c8c9d5ac8067d81de"
+    },
+    "metosin/malli/0.20.1/malli-0.20.1.pom": {
+      "sha256": "07e7c43ad54c32e25af0c663375d1c762c2e644ff82db6fd9c29fa2d821a6bc8"
+    },
+    "metosin/muuntaja/0.6.11/muuntaja-0.6.11.jar": {
+      "sha256": "112c8a293fd87ad15e1610d56836810c65cbcd5ffd039c493808ece921d00992"
+    },
+    "metosin/muuntaja/0.6.11/muuntaja-0.6.11.pom": {
+      "sha256": "7c4aba8f5f7b284db1d583abfb6127b8ecef803e273362812b51b71ac992bf61"
+    },
+    "metosin/reitit-core/0.10.1/reitit-core-0.10.1.jar": {
+      "sha256": "ee0061424c1ed9997354efff196b1235eab53bdc9d966f5a037975f377aaaeb5"
+    },
+    "metosin/reitit-core/0.10.1/reitit-core-0.10.1.pom": {
+      "sha256": "b17aeb94958a9d0167ee92af0513f3df2baa581a5d3764f384c2f784e322a066"
+    },
+    "metosin/reitit-dev/0.10.1/reitit-dev-0.10.1.jar": {
+      "sha256": "8df9c88f8a02d3d2dad0cfa803deb23eab7ad09c795f1000c36d7f7691538269"
+    },
+    "metosin/reitit-dev/0.10.1/reitit-dev-0.10.1.pom": {
+      "sha256": "2f1b19e448aa58fbe66d274c4a53db10542b58252eca76628679343d47bb139c"
+    },
+    "metosin/reitit-frontend/0.10.1/reitit-frontend-0.10.1.jar": {
+      "sha256": "48b352eca012ceb017a133e58c7e000092b8bca567a5f2718c50c5cccf4e4d5a"
+    },
+    "metosin/reitit-frontend/0.10.1/reitit-frontend-0.10.1.pom": {
+      "sha256": "94a4b09bbec98f8894288403e6e38904e1596dc32d9af3f07e944ce09addb291"
+    },
+    "metosin/reitit-http/0.10.1/reitit-http-0.10.1.jar": {
+      "sha256": "e486cd0c7b4d1def0f46cd66e4429edbc57d37e6cf762f7dd4e42091940de80b"
+    },
+    "metosin/reitit-http/0.10.1/reitit-http-0.10.1.pom": {
+      "sha256": "4e076c4687598c82002c47fafe73d4be1513f6b79e69840e587a499711b965ef"
+    },
+    "metosin/reitit-interceptors/0.10.1/reitit-interceptors-0.10.1.jar": {
+      "sha256": "f444f8eb917fc266dcff52b36f1b2235afccb1c4371e33fa46c4063ed4dd9559"
+    },
+    "metosin/reitit-interceptors/0.10.1/reitit-interceptors-0.10.1.pom": {
+      "sha256": "204ff69ab2986867bca17921ba2bc34156e75e9c95f390c21d0733702fa6c4d3"
+    },
+    "metosin/reitit-malli/0.10.1/reitit-malli-0.10.1.jar": {
+      "sha256": "4cdf35e5a09fdadfef3fa3db6a60572c7ab78ec0662f183a733d1ae4bd7a0854"
+    },
+    "metosin/reitit-malli/0.10.1/reitit-malli-0.10.1.pom": {
+      "sha256": "ecc12d96a2530daf66d50738b27a3c94f80c26f1fb58a5bb8228ae3f7dd2e3ce"
+    },
+    "metosin/reitit-middleware/0.10.1/reitit-middleware-0.10.1.jar": {
+      "sha256": "2f4940ddb1b3db2546a1282abdb2b451a6c0600e43c04cf82c86dcbbc20dda6a"
+    },
+    "metosin/reitit-middleware/0.10.1/reitit-middleware-0.10.1.pom": {
+      "sha256": "626ac2440649b6ad242a16d35431fcd7dd3034209a4a6716cfeddac4257bf1d5"
+    },
+    "metosin/reitit-ring/0.10.1/reitit-ring-0.10.1.jar": {
+      "sha256": "bb8499dc65ee3c8f3ef588d0a730d301279b283d17c5f344f139c3643ffb4cc4"
+    },
+    "metosin/reitit-ring/0.10.1/reitit-ring-0.10.1.pom": {
+      "sha256": "4da771384af4c953f5b9d6c24fafeab28da52a5758809f710c53761df6621786"
+    },
+    "metosin/reitit-schema/0.10.1/reitit-schema-0.10.1.jar": {
+      "sha256": "2d810286a7f337b52df6e396cbebea3e085df93d75d2117f9c0513264635893e"
+    },
+    "metosin/reitit-schema/0.10.1/reitit-schema-0.10.1.pom": {
+      "sha256": "dc6d0d55947951f9aae6965c0b409c502dbde84299f45970b53bbe3b8bc35fe2"
+    },
+    "metosin/reitit-sieppari/0.10.1/reitit-sieppari-0.10.1.jar": {
+      "sha256": "ee6748c5f9abe9081e45f1673ca5be7655e7a8c7843fe89d7eaa1a47821f0620"
+    },
+    "metosin/reitit-sieppari/0.10.1/reitit-sieppari-0.10.1.pom": {
+      "sha256": "9b01391ccf46148c955c892df64fdf0d0fd3e3b7cd35cb51656e27beb36266d7"
+    },
+    "metosin/reitit-spec/0.10.1/reitit-spec-0.10.1.jar": {
+      "sha256": "44da4e309f6a03e17142102b77d64c7b0be460bb6d7b7282b9aa619adb02b506"
+    },
+    "metosin/reitit-spec/0.10.1/reitit-spec-0.10.1.pom": {
+      "sha256": "527efdc3d662b9c65740e86242ddd8e2fb974f4680ca1939dcea15a6dac565fa"
+    },
+    "metosin/reitit-swagger-ui/0.10.1/reitit-swagger-ui-0.10.1.jar": {
+      "sha256": "cf14cad8805307c226b9c1d7ccb0c02d4e0eac284a2f85db030df19dabb78c8e"
+    },
+    "metosin/reitit-swagger-ui/0.10.1/reitit-swagger-ui-0.10.1.pom": {
+      "sha256": "5095a835efcf67e65f6e6a610ad972e434431536410105f71d31f10baa63d0a5"
+    },
+    "metosin/reitit-swagger/0.10.1/reitit-swagger-0.10.1.jar": {
+      "sha256": "46874f5dc8a4bca4dc533b2c6faac2c9d630a8783e6c50efa08b2601d8cc8320"
+    },
+    "metosin/reitit-swagger/0.10.1/reitit-swagger-0.10.1.pom": {
+      "sha256": "519d5a34830c74e5cced455f8a969ba44e68fed114818793b923dcbaf5423946"
+    },
+    "metosin/reitit/0.10.1/reitit-0.10.1.jar": {
+      "sha256": "bd60114e931b17d3bd73f93a94bb893192ebe09c5eecba639a34401e1e76a07a"
+    },
+    "metosin/reitit/0.10.1/reitit-0.10.1.pom": {
+      "sha256": "2bd463e777b7b68252aa81fbed3dd03f701ccc63447d03a1444ddb59ee9fab0c"
+    },
+    "metosin/ring-swagger-ui/5.31.0/ring-swagger-ui-5.31.0.jar": {
+      "sha256": "e76fe734ce9fc86590d2c66e6ab4eb4017bbc85f0d397f760ea0d526598f431d"
+    },
+    "metosin/ring-swagger-ui/5.31.0/ring-swagger-ui-5.31.0.pom": {
+      "sha256": "3f9b3631d21bb44939d310207816a36acc190480b5f26759c620d4248a20b7e5"
+    },
+    "metosin/schema-tools/0.13.1/schema-tools-0.13.1.jar": {
+      "sha256": "7c6401bdc8d0c8346acfae0643684a4e8be9ad8e256f62451ff678687f23ba62"
+    },
+    "metosin/schema-tools/0.13.1/schema-tools-0.13.1.pom": {
+      "sha256": "27fa583b7411b9b337201be71878887e171a078d5d7f52e4b8b7fd0991f0be90"
+    },
+    "metosin/sieppari/0.0.0-alpha13/sieppari-0.0.0-alpha13.jar": {
+      "sha256": "2d32e4301c7c3724d034082b1b89f0b8d6db8a5fda98c605feb4fa4ed06f6537"
+    },
+    "metosin/sieppari/0.0.0-alpha13/sieppari-0.0.0-alpha13.pom": {
+      "sha256": "2ad221aaafe8caf4f08cb7d9ef199c37bee4f3c94fb1f748acbbe02268978fa4"
+    },
+    "metosin/spec-tools/0.10.8/spec-tools-0.10.8.jar": {
+      "sha256": "d94be6498dbd77ca64fddae72c35892d6f0573aebd4f73471d18eab53fe6ffd1"
+    },
+    "metosin/spec-tools/0.10.8/spec-tools-0.10.8.pom": {
+      "sha256": "35779d972b631cd7862c3fa234615d8d8d6a3da9f393756988b793ec40c22db6"
+    },
+    "mvxcvi/arrangement/2.1.0/arrangement-2.1.0.jar": {
+      "sha256": "f37251385d220df8951e68d5255abb5197adbcbd8fc6b3d3fca872a2339f39c8"
+    },
+    "mvxcvi/arrangement/2.1.0/arrangement-2.1.0.pom": {
+      "sha256": "7d688c866618140a3bf009b4d0570aeda70903487b7651fb54d0477f94d3d88b"
+    },
+    "mvxcvi/puget/1.1.2/puget-1.1.2.jar": {
+      "sha256": "ee2e5f8e226136880771cd99683d4db2353bd20485fbe821f6b7be8ce6664515"
+    },
+    "mvxcvi/puget/1.1.2/puget-1.1.2.pom": {
+      "sha256": "2e36075570e6094da204c78ec2269cbaf98fbcc27cb8e4b89fdef73b8ec1afbb"
+    },
+    "net/incongru/watchservice/barbary-watchservice/1.0/barbary-watchservice-1.0.jar": {
+      "sha256": "54c6cabd82093c8515f6e14e43d94bfe7e9fc795d15789f3943a1418d8263ab5"
+    },
+    "net/incongru/watchservice/barbary-watchservice/1.0/barbary-watchservice-1.0.pom": {
+      "sha256": "93b3b11da96d5178880df8c5053f18cfc781caff0d9ddf4b3c647244a9d1c2cf"
+    },
+    "net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar": {
+      "sha256": "f91ba7c0f26c34f04bf57d2ae30d4b19f906e7bb1de90eb3e1f4fdbf45d0c541"
+    },
+    "net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.pom": {
+      "sha256": "be846cb493ec623fbc89f4cfe884b3f60737207e6dfe4bbccb00af13515f2f99"
+    },
+    "net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar": {
+      "sha256": "1aa37e9ea6baa0ee152d89509f758f0847eac66ec179b955cafe0919e540a92e"
+    },
+    "net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom": {
+      "sha256": "a3ecd0d4d54ae6543eca32d8d95e1c67c84751f781177ade3730bc86bf2ff687"
+    },
+    "net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar": {
+      "sha256": "91a814ac4f40d60dee91d842e1a8ad874c62197984403d0e3c30d39e55cf53b3"
+    },
+    "net/java/dev/jna/jna/5.12.1/jna-5.12.1.pom": {
+      "sha256": "65ff25849bad859554b50317792f5689adb4529ae4031e9a5246319cb2b85356"
+    },
+    "net/java/jvnet-parent/1/jvnet-parent-1.pom": {
+      "sha256": "281440811268e65d9e266b3cc898297e214e04f09740d0386ceeb4a8923d63bf"
+    },
+    "net/java/jvnet-parent/5/jvnet-parent-5.pom": {
+      "sha256": "1af699f8d9ddab67f9a0d202fbd7915eb0362a5a6dfd5ffc54cafa3465c9cb0a"
+    },
+    "org/apache/apache/21/apache-21.pom": {
+      "sha256": "af10c108da014f17cafac7b52b2b4b5a3a1c18265fa2af97a325d9143537b380"
+    },
+    "org/apache/apache/23/apache-23.pom": {
+      "sha256": "bc10624e0623f36577fac5639ca2936d3240ed152fb6d8d533ab4d270543491c"
+    },
+    "org/apache/apache/25/apache-25.pom": {
+      "sha256": "e68fc19a48cec582a6732fd0b10dbfe9feca25060963def89e547f8a3759d379"
+    },
+    "org/apache/apache/34/apache-34.pom": {
+      "sha256": "3671ae9d4d062ae3bb985731c76088bb2f6f7d7254e2d304ee9f690b97651328"
+    },
+    "org/apache/apache/35/apache-35.pom": {
+      "sha256": "ea297dcd114136e8b8e8b630230d52a76c2fc69f6c5db25d672b1857000728b8"
+    },
+    "org/apache/apache/37/apache-37.pom": {
+      "sha256": "524ec4787aff73af6b3a9fafa154c7f1881b648299b663fdbfcadda1286f2353"
+    },
+    "org/apache/apache/38/apache-38.pom": {
+      "sha256": "9b0a5f28ddfb4b7500a37022bee8245efdd044fb9a3d79fb827550923eccc4b5"
+    },
+    "org/apache/commons/commons-fileupload2-core/2.0.0-M4/commons-fileupload2-core-2.0.0-M4.jar": {
+      "sha256": "d285cd8cdde3d9466208b37c7750454b0b280ea773b19b050ae1e2ddb09e6991"
+    },
+    "org/apache/commons/commons-fileupload2-core/2.0.0-M4/commons-fileupload2-core-2.0.0-M4.pom": {
+      "sha256": "9d5af8825271f2295105fb0da8106308ed2809ebecf5030879c1b67485ea8dcf"
+    },
+    "org/apache/commons/commons-fileupload2/2.0.0-M4/commons-fileupload2-2.0.0-M4.pom": {
+      "sha256": "d4ebd5075295bef5eb50bec09d0ea237c5570db65de5d7d57c6328241c4da186"
+    },
+    "org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar": {
+      "sha256": "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720"
+    },
+    "org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.pom": {
+      "sha256": "aa254b373b6f6d46bc9dca86331b072a8ab86eb25ea9921fd439618392e98a16"
+    },
+    "org/apache/commons/commons-parent/52/commons-parent-52.pom": {
+      "sha256": "75dbe8f34e98e4c3ff42daae4a2f9eb4cbcd3b5f1047d54460ace906dbb4502e"
+    },
+    "org/apache/commons/commons-parent/84/commons-parent-84.pom": {
+      "sha256": "9239fb97101db27070e4983d10d33a0e91cf676cad91bf53815422c3561ef9b1"
+    },
+    "org/apache/commons/commons-parent/85/commons-parent-85.pom": {
+      "sha256": "d189ff2c0027e96bb65d31e6f227ed2af966169b36af1e973dd5ba08926dc7b5"
+    },
+    "org/apache/commons/commons-parent/91/commons-parent-91.pom": {
+      "sha256": "d2f8b6fd4800b6aaf120f5a38226d5f9d5fc6db837af99e2f9b33067868b9872"
+    },
+    "org/apache/commons/commons-parent/96/commons-parent-96.pom": {
+      "sha256": "2cd3289b44efa53052d9cdaf3f05544833a520a682f9c7ffd403a00bbb157f9a"
+    },
+    "org/apache/commons/commons-parent/97/commons-parent-97.pom": {
+      "sha256": "14366dcbef67a69bb2a8fe9ca7289c215381c5c25093542a499f9d523a2cad7b"
+    },
+    "org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar": {
+      "sha256": "c8bc7e1c51a6d4ce72f40d2ebbabf1c4b68bfe76e732104b04381b493478e9d6"
+    },
+    "org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.pom": {
+      "sha256": "f18355af4cf80a8a4ef04ebd742a47e90a7eaf080c725b2095dbc4fc5dbdefb7"
+    },
+    "org/apache/httpcomponents/httpcomponents-client/4.5.14/httpcomponents-client-4.5.14.pom": {
+      "sha256": "5bad1de4f101447659f89d089868ccbad64a68cc503d2d65410b51f6904aa061"
+    },
+    "org/apache/httpcomponents/httpcomponents-core/4.4.16/httpcomponents-core-4.4.16.pom": {
+      "sha256": "f2d75a2c2d423ad18539bf21656d56f88a4091944a662fcaf159d5ae283db7f7"
+    },
+    "org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom": {
+      "sha256": "a901f87b115c55070c7ee43efff63e20e7b02d30af2443ae292bf1f4e532d3aa"
+    },
+    "org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar": {
+      "sha256": "6c9b3dd142a09dc468e23ad39aad6f75a0f2b85125104469f026e52a474e464f"
+    },
+    "org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.pom": {
+      "sha256": "3cbad849b35dacfe6cec31adada2c623c026c3261141b0d26eec7e399c6cd7fa"
+    },
+    "org/apache/maven/maven-artifact/3.9.16/maven-artifact-3.9.16.jar": {
+      "sha256": "54cc1c1ef932e3d4a903352111b42b4d3c3ed8e7a1d0de73b625309d9c3ad3e8"
+    },
+    "org/apache/maven/maven-artifact/3.9.16/maven-artifact-3.9.16.pom": {
+      "sha256": "85d313bbbdbce67e199aadb4336e100c40a147881142ea4368cdebeafc02baec"
+    },
+    "org/apache/maven/maven-builder-support/3.9.16/maven-builder-support-3.9.16.jar": {
+      "sha256": "02972384eae3495801565fd27abb84cfd75a8e6d2cbb1ae0c556752ebc2b1cde"
+    },
+    "org/apache/maven/maven-builder-support/3.9.16/maven-builder-support-3.9.16.pom": {
+      "sha256": "c8366af883eeec0e2fd13e14cd8245969284b6e66df131f7b7c03d270f72f613"
+    },
+    "org/apache/maven/maven-model-builder/3.8.7/maven-model-builder-3.8.7.pom": {
+      "sha256": "b6307d4ef7c0a38436a23618e5f5c9e9bc888c7416784a11ac8787a6bc7f418c"
+    },
+    "org/apache/maven/maven-model-builder/3.9.16/maven-model-builder-3.9.16.jar": {
+      "sha256": "002be86d1f53b36f559a0786034a17598d71087f1935f205a1f9e51d4dd124b3"
+    },
+    "org/apache/maven/maven-model-builder/3.9.16/maven-model-builder-3.9.16.pom": {
+      "sha256": "6e2a59eadd77b244fe60fc60b7ed3a9b2dee704d44a4f5baca4f9d3be6e53e10"
+    },
+    "org/apache/maven/maven-model/3.8.7/maven-model-3.8.7.pom": {
+      "sha256": "e1d477858c06fc3a579fc2c581af57206eb1587d8c10530715b9896f64b790f5"
+    },
+    "org/apache/maven/maven-model/3.9.16/maven-model-3.9.16.jar": {
+      "sha256": "f59d86a507c241bf17bbf050050d1b8b9c0d34d5010a7e2386c3cab7c83b93de"
+    },
+    "org/apache/maven/maven-model/3.9.16/maven-model-3.9.16.pom": {
+      "sha256": "64883ffcfd91ddaadb4181740236a823bfe0880e0c20f5beee74bc32a93914a7"
+    },
+    "org/apache/maven/maven-parent/34/maven-parent-34.pom": {
+      "sha256": "1a8faf7a6a2b848acb26a959954ee115c0d79dbe75a6206fb3b8c7c2f45a237f"
+    },
+    "org/apache/maven/maven-parent/35/maven-parent-35.pom": {
+      "sha256": "d2edd4077c0abc9cc8202883c459503180424636cb39a83031ec1112394b2576"
+    },
+    "org/apache/maven/maven-parent/45/maven-parent-45.pom": {
+      "sha256": "94fe869eb9b4ce9fce3995d05ea86b168c85d927f9d17beb814a1960c76d7e6f"
+    },
+    "org/apache/maven/maven-parent/47/maven-parent-47.pom": {
+      "sha256": "82d0112ba1907ff5fd13a2485829c97df66c6a81e075359a561a422f7d1582d3"
+    },
+    "org/apache/maven/maven-parent/48/maven-parent-48.pom": {
+      "sha256": "cc9eed84b90a96cbc33aefecc93facb9a49f960ad678909162c579356cfe12c9"
+    },
+    "org/apache/maven/maven-repository-metadata/3.8.7/maven-repository-metadata-3.8.7.pom": {
+      "sha256": "029750dcd1b2505b5b4369c90e232935f8c2241e13602270f8f5211477e93957"
+    },
+    "org/apache/maven/maven-repository-metadata/3.9.16/maven-repository-metadata-3.9.16.jar": {
+      "sha256": "bc3dd413b89a16b695f35a5d0496b58ea2787c30b7b6062c130d24d6d764720f"
+    },
+    "org/apache/maven/maven-repository-metadata/3.9.16/maven-repository-metadata-3.9.16.pom": {
+      "sha256": "1c018bbd6cd513b43df5dd64c82579b14c414d35f99e06a0c3878b05ae070912"
+    },
+    "org/apache/maven/maven-resolver-provider/3.8.7/maven-resolver-provider-3.8.7.pom": {
+      "sha256": "97e298cf8574aa9aab32a015f1ff84182421c586abe45dda04be29ecb5e6cfe7"
+    },
+    "org/apache/maven/maven-resolver-provider/3.9.16/maven-resolver-provider-3.9.16.jar": {
+      "sha256": "72a2d6aad3708e2c708b659b292ae9587a4d170ec88f48466290318730221118"
+    },
+    "org/apache/maven/maven-resolver-provider/3.9.16/maven-resolver-provider-3.9.16.pom": {
+      "sha256": "33723bba45ff2a1581bc2840836b7d9c9aa262af676f4f61222e179b56ea8818"
+    },
+    "org/apache/maven/maven-settings-builder/3.9.16/maven-settings-builder-3.9.16.jar": {
+      "sha256": "226f1cbb0b4d414eff773fb151a8977837c98073e14d5963794e6cf464e6adbb"
+    },
+    "org/apache/maven/maven-settings-builder/3.9.16/maven-settings-builder-3.9.16.pom": {
+      "sha256": "bce946240bf297982f524666674acff5c14878a24849f1f3c3489cd1d829ed48"
+    },
+    "org/apache/maven/maven-settings/3.9.16/maven-settings-3.9.16.jar": {
+      "sha256": "322ae5b23f4b7b6ce7896bd33a793143dbbbbcc16c4475e2d7eebbd8f755da92"
+    },
+    "org/apache/maven/maven-settings/3.9.16/maven-settings-3.9.16.pom": {
+      "sha256": "d3df811fe57832933adef90c119cbf3abb941884cf840cc9777aa639cf1a145d"
+    },
+    "org/apache/maven/maven/3.8.7/maven-3.8.7.pom": {
+      "sha256": "473e75d90709d7fd28b038442e1371cc4b2203dca0298486fc8cfa73dafa93b5"
+    },
+    "org/apache/maven/maven/3.9.16/maven-3.9.16.pom": {
+      "sha256": "5a761e32d3f3b5d65a70345cab4a327730c1d2000bb935bae7276dcc8fa81738"
+    },
+    "org/apache/maven/resolver/maven-resolver-api/1.9.25/maven-resolver-api-1.9.25.pom": {
+      "sha256": "d2a68bc43e04adaf767970122de0c44430458fee25dd967d0039401dc260171a"
+    },
+    "org/apache/maven/resolver/maven-resolver-api/1.9.27/maven-resolver-api-1.9.27.jar": {
+      "sha256": "a895d222283666a7320ddc76615e2e93a41fabd93ce9a6bf9ddee39272bb87b4"
+    },
+    "org/apache/maven/resolver/maven-resolver-api/1.9.27/maven-resolver-api-1.9.27.pom": {
+      "sha256": "98dc031f75f2c9b7efeef344e1c74bb3d009c584e36e82a0ec3d263d2bfef373"
+    },
+    "org/apache/maven/resolver/maven-resolver-connector-basic/1.9.25/maven-resolver-connector-basic-1.9.25.pom": {
+      "sha256": "6d7e5ddb3e1cc757c8ab5b61b600c3ba7e1bffd678a91262f538c969c3286816"
+    },
+    "org/apache/maven/resolver/maven-resolver-connector-basic/1.9.27/maven-resolver-connector-basic-1.9.27.jar": {
+      "sha256": "3bd98e3a426f9adcae39e3786db229e2be77e08a743ecd9be15c5ed77be3a625"
+    },
+    "org/apache/maven/resolver/maven-resolver-connector-basic/1.9.27/maven-resolver-connector-basic-1.9.27.pom": {
+      "sha256": "494fd7b5b48b9dd65ff624ef38c900e7caab4d815567dca1ba6fb9d80278a19f"
+    },
+    "org/apache/maven/resolver/maven-resolver-impl/1.9.25/maven-resolver-impl-1.9.25.pom": {
+      "sha256": "466bca9af6bd5ee3db6c130bd1fda857491c0c6ba4bc91ce01bf23bae1375dbb"
+    },
+    "org/apache/maven/resolver/maven-resolver-impl/1.9.27/maven-resolver-impl-1.9.27.jar": {
+      "sha256": "295d48ea2a8bb3aef51888967f105fb6251997d111f13c32d28919fd9b1c951e"
+    },
+    "org/apache/maven/resolver/maven-resolver-impl/1.9.27/maven-resolver-impl-1.9.27.pom": {
+      "sha256": "ce9b47e8aeb58e46dfd05eb8fd0fe3ebfe152a06ff0f23bb42127d1576cd6914"
+    },
+    "org/apache/maven/resolver/maven-resolver-named-locks/1.9.25/maven-resolver-named-locks-1.9.25.pom": {
+      "sha256": "3cc70063ca3c99a46bbbb75468846db02f33f2ec666d587a6f1532bc64c4db08"
+    },
+    "org/apache/maven/resolver/maven-resolver-named-locks/1.9.27/maven-resolver-named-locks-1.9.27.jar": {
+      "sha256": "b39ecd4da98fdac5068e6f5d16910a71f4e4d48e95e17d107f6603e18f2b3fdf"
+    },
+    "org/apache/maven/resolver/maven-resolver-named-locks/1.9.27/maven-resolver-named-locks-1.9.27.pom": {
+      "sha256": "41ef2c7170eb0672cb7bc97caa765bad5386d49d93bbe8ae430887238c8e669a"
+    },
+    "org/apache/maven/resolver/maven-resolver-spi/1.9.25/maven-resolver-spi-1.9.25.pom": {
+      "sha256": "74c5d7b6f573555d191361100f6d29ecdb36e6c8da75d7fce36ee4ba14c98e2e"
+    },
+    "org/apache/maven/resolver/maven-resolver-spi/1.9.27/maven-resolver-spi-1.9.27.jar": {
+      "sha256": "1cab02f45bc58d5f4d8e084eaf032f13ea1a5fc9021d8bd74f8360ebb6593e5a"
+    },
+    "org/apache/maven/resolver/maven-resolver-spi/1.9.27/maven-resolver-spi-1.9.27.pom": {
+      "sha256": "c6310e360bb5b543aa0c7a6892b18e964add6feaf3917ac88c85264ed377c676"
+    },
+    "org/apache/maven/resolver/maven-resolver-supplier/1.9.27/maven-resolver-supplier-1.9.27.jar": {
+      "sha256": "2da980ca88e8e15f2951a32a50768f0a5e202f075718f8ddbd558123e8594dcd"
+    },
+    "org/apache/maven/resolver/maven-resolver-supplier/1.9.27/maven-resolver-supplier-1.9.27.pom": {
+      "sha256": "660843ab432de1a72554f15839444b9f30a40741996aa7014dbb008b21877e3d"
+    },
+    "org/apache/maven/resolver/maven-resolver-transport-file/1.9.25/maven-resolver-transport-file-1.9.25.pom": {
+      "sha256": "1b49d066c2148904ec9e257864551e52a1ecddbb0a3f358fb19221b4a5702e60"
+    },
+    "org/apache/maven/resolver/maven-resolver-transport-file/1.9.27/maven-resolver-transport-file-1.9.27.jar": {
+      "sha256": "3988261bd31e2e79eda802b3971992fce44756b0029557a05c7b871d3c3ddef7"
+    },
+    "org/apache/maven/resolver/maven-resolver-transport-file/1.9.27/maven-resolver-transport-file-1.9.27.pom": {
+      "sha256": "4832099eb3a535b19903a898bb03f4cc654886deb07661bd38f8cb3f002ebe54"
+    },
+    "org/apache/maven/resolver/maven-resolver-transport-http/1.9.25/maven-resolver-transport-http-1.9.25.pom": {
+      "sha256": "b4004ca4940a0782a197be9b3abd8292ef218da014833d33057b182e49ab125f"
+    },
+    "org/apache/maven/resolver/maven-resolver-transport-http/1.9.27/maven-resolver-transport-http-1.9.27.jar": {
+      "sha256": "723f3d9d717a693d0aac589e266b995f76e9c63edd48ecc8a0cf9e86a77e459c"
+    },
+    "org/apache/maven/resolver/maven-resolver-transport-http/1.9.27/maven-resolver-transport-http-1.9.27.pom": {
+      "sha256": "a7eae6d54a490eedf286193d7f280f7e97d89588da7d5adf117f0133098dbe2e"
+    },
+    "org/apache/maven/resolver/maven-resolver-transport-wagon/1.9.25/maven-resolver-transport-wagon-1.9.25.jar": {
+      "sha256": "73425c699e593cbb5b51dc01efc8cd334bdf793bb3c4070d48f32a72e99b61ed"
+    },
+    "org/apache/maven/resolver/maven-resolver-transport-wagon/1.9.25/maven-resolver-transport-wagon-1.9.25.pom": {
+      "sha256": "337d746fff7d1aaa487637ecbdc12fdb76003a129511d51dea4b2601facd7c36"
+    },
+    "org/apache/maven/resolver/maven-resolver-util/1.9.25/maven-resolver-util-1.9.25.pom": {
+      "sha256": "2283fb0bb5cec9f7524cba93498c6e89739aac5edd25d3a418f0fc4f6ce30007"
+    },
+    "org/apache/maven/resolver/maven-resolver-util/1.9.27/maven-resolver-util-1.9.27.jar": {
+      "sha256": "74a12548f0d6aad13c728666288c1e81201c24bd05bb4e4ec8c1558517b379a7"
+    },
+    "org/apache/maven/resolver/maven-resolver-util/1.9.27/maven-resolver-util-1.9.27.pom": {
+      "sha256": "b2b3c7774cdc61887da814b42338c9421babbab9b1e87c3e6493885ffda53231"
+    },
+    "org/apache/maven/resolver/maven-resolver/1.9.25/maven-resolver-1.9.25.pom": {
+      "sha256": "c0870a6e68e160851cc7c1108ffc77198edf90715520d1a87c50484e7281c06e"
+    },
+    "org/apache/maven/resolver/maven-resolver/1.9.27/maven-resolver-1.9.27.pom": {
+      "sha256": "8924b41711cce058f83c46d79ad83d6e04edcf13ed5631ec11135656e0b87f56"
+    },
+    "org/apache/maven/wagon/wagon-http-shared/3.5.3/wagon-http-shared-3.5.3.jar": {
+      "sha256": "8e7da766f55164fde8779aaaa125832506c2848cab4876b5305138873e28037f"
+    },
+    "org/apache/maven/wagon/wagon-http-shared/3.5.3/wagon-http-shared-3.5.3.pom": {
+      "sha256": "6014b1e64abf455c6834a0918248e15638050f835da12051d33cda7e946d88f8"
+    },
+    "org/apache/maven/wagon/wagon-http/3.5.3/wagon-http-3.5.3.jar": {
+      "sha256": "d2b6e48c9fcbe579e1858c622d14464011ff265fa6e28e794004a6882154a509"
+    },
+    "org/apache/maven/wagon/wagon-http/3.5.3/wagon-http-3.5.3.pom": {
+      "sha256": "934f2f9c87e497c4f795be4bb05b360b8c231467d460103c19012b79b8c03c6b"
+    },
+    "org/apache/maven/wagon/wagon-provider-api/3.5.3/wagon-provider-api-3.5.3.jar": {
+      "sha256": "5e72000338945ed3e96f8e4f578d1d0672e1af7e19c0e9014197ae5b31af3ef4"
+    },
+    "org/apache/maven/wagon/wagon-provider-api/3.5.3/wagon-provider-api-3.5.3.pom": {
+      "sha256": "64d6a085e8a6bede9607cbd029ea58cd1c87304410862492174a6d59b9d17142"
+    },
+    "org/apache/maven/wagon/wagon-providers/3.5.3/wagon-providers-3.5.3.pom": {
+      "sha256": "807c51ffccdef6c01130b74aeed27815ec162bc2686c01e9d29f16efc526a44a"
+    },
+    "org/apache/maven/wagon/wagon-ssh-common/3.5.3/wagon-ssh-common-3.5.3.jar": {
+      "sha256": "9f7c9453af791f7d901c4430ec482a1943ac2ce2588ce1daf05ed32eb31a7efa"
+    },
+    "org/apache/maven/wagon/wagon-ssh-common/3.5.3/wagon-ssh-common-3.5.3.pom": {
+      "sha256": "867be935240797ca15a8e7875b399ec5a00066bf1e94b0e7d7bcebd1689bd456"
+    },
+    "org/apache/maven/wagon/wagon-ssh/3.5.3/wagon-ssh-3.5.3.jar": {
+      "sha256": "f9f587b405b672ffcb730d757ff9f27ed3a3689aeed69c4098f4f07f46819e74"
+    },
+    "org/apache/maven/wagon/wagon-ssh/3.5.3/wagon-ssh-3.5.3.pom": {
+      "sha256": "0637c84128343a7135f2f5ef55b7cd9e46bb6f29f462ec03aa2d339a9b41ef8e"
+    },
+    "org/apache/maven/wagon/wagon/3.5.3/wagon-3.5.3.pom": {
+      "sha256": "7c10b8bac59268fe7957f2ab2b50965d90069ebf850c756bb55ea807ce440f0b"
+    },
+    "org/babashka/cli/0.7.51/cli-0.7.51.jar": {
+      "sha256": "0caabd2b07349e955a7d7b198576d7eda23aa3de85b86c7ebfef81f28569a4a3"
+    },
+    "org/babashka/cli/0.7.51/cli-0.7.51.pom": {
+      "sha256": "7f0c187737a1a55909ff980fb269f6c8eb495aa1522c64abec71825439c910d0"
+    },
+    "org/babashka/sci.impl.types/0.0.2/sci.impl.types-0.0.2.jar": {
+      "sha256": "86fc738de20e9330b7471958ae2286a7d9b7de3d7c69be38bb76b21c02c69c5f"
+    },
+    "org/babashka/sci.impl.types/0.0.2/sci.impl.types-0.0.2.pom": {
+      "sha256": "1b69f2c1d549f2c8b47b6b93dca7103d6fec40506bc90bd5a97575cd6a447a1e"
+    },
+    "org/babashka/sci/0.10.49/sci-0.10.49.jar": {
+      "sha256": "c7f4d077dca5ffd85064b2c528bf4578f8ac594177da54cdf67ea2726509b24b"
+    },
+    "org/babashka/sci/0.10.49/sci-0.10.49.pom": {
+      "sha256": "af360d7c80d175c4ebff79be32ab929a224ee98962104611d06257756a8c6d63"
+    },
+    "org/clojure/clojure/1.12.4/clojure-1.12.4.jar": {
+      "sha256": "4b81e9ba6da38c45d9cc58023c674062b8c9f0714f33ff00ded22e6a949da177"
+    },
+    "org/clojure/clojure/1.12.4/clojure-1.12.4.pom": {
+      "sha256": "c51879062e41ff9f21afa0e409b199ffe9f2a3c6ae722cdfec5fd9dba05e4172"
+    },
+    "org/clojure/clojure/1.12.5/clojure-1.12.5.jar": {
+      "sha256": "dfdee131460216a84fef22e537bb0d0579965f8f70338d748323dff26f8e5a8b"
+    },
+    "org/clojure/clojure/1.12.5/clojure-1.12.5.pom": {
+      "sha256": "278c51d977c1968493d8d4cb0c5c60e2cb2550d60485c3813cf161e56af68858"
+    },
+    "org/clojure/core.async/1.8.741/core.async-1.8.741.jar": {
+      "sha256": "288489a4f0e580f43e1913cba842b32959ef01e2d1bc3a01db2e97c79c9c655a"
+    },
+    "org/clojure/core.async/1.8.741/core.async-1.8.741.pom": {
+      "sha256": "a59e2f01a45c438bd1d050f1d3154315d9f46a1d6bc097ccc7625d08635ae8e1"
+    },
+    "org/clojure/core.cache/1.1.234/core.cache-1.1.234.jar": {
+      "sha256": "ba9071044edb7b009288b2c5f800a7dcd918b0f1725c5ba800469238df972f63"
+    },
+    "org/clojure/core.cache/1.1.234/core.cache-1.1.234.pom": {
+      "sha256": "449fdbda7cc88ec5de227076a140452e80dbb0795225b49b0c9e940c4b912119"
+    },
+    "org/clojure/core.memoize/1.1.266/core.memoize-1.1.266.jar": {
+      "sha256": "5792a21d6d90a1f5e68d4a10f65607aa21f6c484eb9d1a421cefc1f8ac26f18e"
+    },
+    "org/clojure/core.memoize/1.1.266/core.memoize-1.1.266.pom": {
+      "sha256": "66f7a4dd16c2960b8e475f343d1e724d9941c736ba61016d1fe1b3c5d89acfee"
+    },
+    "org/clojure/core.rrb-vector/0.1.2/core.rrb-vector-0.1.2.jar": {
+      "sha256": "51f98eba7b2cd42ee30f3826925dcde8791167f76f712329ae51b88244e8138e"
+    },
+    "org/clojure/core.rrb-vector/0.1.2/core.rrb-vector-0.1.2.pom": {
+      "sha256": "8ee2bacafc3843358cce76510d73324212bb3519fad57804eceabdc37ac5091f"
+    },
+    "org/clojure/core.rrb-vector/0.2.1/core.rrb-vector-0.2.1.jar": {
+      "sha256": "f04dc1901419abec4688bd180f5ffcf3540731702f0d32e4d7f2fbe08441990a"
+    },
+    "org/clojure/core.rrb-vector/0.2.1/core.rrb-vector-0.2.1.pom": {
+      "sha256": "1d2f23d08006374f09a4e5f25feab143fb00e6ec38a098623c290ab473d48d4a"
+    },
+    "org/clojure/core.specs.alpha/0.4.74/core.specs.alpha-0.4.74.jar": {
+      "sha256": "eb73ac08cf49ba840c88ba67beef11336ca554333d9408808d78946e0feb9ddb"
+    },
+    "org/clojure/core.specs.alpha/0.4.74/core.specs.alpha-0.4.74.pom": {
+      "sha256": "33410eb8aa73d52d957b3dc6e0a65f3998ac0623cbd813d90c33e6e689c42429"
+    },
+    "org/clojure/data.json/2.5.2/data.json-2.5.2.jar": {
+      "sha256": "0938c730961d32b331ea7e5cd7c6a822c0a889def79d1c3f2af4dd201fdddeb3"
+    },
+    "org/clojure/data.json/2.5.2/data.json-2.5.2.pom": {
+      "sha256": "818c87780270288abaa7239becdd06d1965ef38475e6438466ec67fcfc117f9a"
+    },
+    "org/clojure/data.priority-map/1.2.0/data.priority-map-1.2.0.jar": {
+      "sha256": "a4523626a1ccc4fce0d1efe6df16897fc3e34b58738f0462e4536af17dea02f0"
+    },
+    "org/clojure/data.priority-map/1.2.0/data.priority-map-1.2.0.pom": {
+      "sha256": "e40154ef1860d51b0b0bb92cbb35492b126c9227bc2d158f0768da4b2093b13a"
+    },
+    "org/clojure/data.xml/0.2.0-alpha11/data.xml-0.2.0-alpha11.jar": {
+      "sha256": "618f9b972254f759ea6d65636b5d06e81a0ca0392836ca7a3872125df4c2e143"
+    },
+    "org/clojure/data.xml/0.2.0-alpha11/data.xml-0.2.0-alpha11.pom": {
+      "sha256": "cf4b001326c00be99f3f4679d1be2cac4b626647edb8e39c14588606c1550f68"
+    },
+    "org/clojure/java.classpath/1.0.0/java.classpath-1.0.0.jar": {
+      "sha256": "c14e0e10304a5e5cfd2cc742fbdefac1f5293eec6070c2ffe8903fb5c7fe7d6f"
+    },
+    "org/clojure/java.classpath/1.0.0/java.classpath-1.0.0.pom": {
+      "sha256": "0be013851457fc24c434ce45534643f226e5c10800486253fd373f2e09545e28"
+    },
+    "org/clojure/java.classpath/1.1.1/java.classpath-1.1.1.jar": {
+      "sha256": "518bd2b6b8c2bef986e23d739c66dfde59b230f50885ca5aee5ed8b8a7e4b388"
+    },
+    "org/clojure/java.classpath/1.1.1/java.classpath-1.1.1.pom": {
+      "sha256": "935511e0ca36e1b1d10827673cd234bb75e6c5ceb4266669aaf5e2c9a591d421"
+    },
+    "org/clojure/pom.contrib/0.2.2/pom.contrib-0.2.2.pom": {
+      "sha256": "e0ea227c49c5c3e30754cd26fcc57be7e4de973fe43aa5cc6667401ec5c10323"
+    },
+    "org/clojure/pom.contrib/1.1.0/pom.contrib-1.1.0.pom": {
+      "sha256": "10ece4bb5f9829010dc16561f42ebb83baf2f47605b51f9105b92f3caa089715"
+    },
+    "org/clojure/pom.contrib/1.2.0/pom.contrib-1.2.0.pom": {
+      "sha256": "0916d7a41558b9500a427c886fa29827ace5259206be3ad33e64e296fc1a6111"
+    },
+    "org/clojure/pom.contrib/1.4.0/pom.contrib-1.4.0.pom": {
+      "sha256": "0993676876081f491ba5af82fa6b5a037a3bee3a125a02d6d5e27aa29f356787"
+    },
+    "org/clojure/spec.alpha/0.5.238/spec.alpha-0.5.238.jar": {
+      "sha256": "94cd99b6ea639641f37af4860a643b6ed399ee5a8be5d717cff0b663c8d75077"
+    },
+    "org/clojure/spec.alpha/0.5.238/spec.alpha-0.5.238.pom": {
+      "sha256": "3cba7e0dcc085c4ce92dddffea226124ffac178be79bd0379b5b2e30a969cbea"
+    },
+    "org/clojure/test.check/1.1.3/test.check-1.1.3.jar": {
+      "sha256": "8b0637b13982734742fb3f4d129f0a9d9e3d752b1aec0c6f65ced4555f72b649"
+    },
+    "org/clojure/test.check/1.1.3/test.check-1.1.3.pom": {
+      "sha256": "a4f21feb2386fbfcd42a52200d14c0f78bbef6899f748ccefcb0a4499e0fdec5"
+    },
+    "org/clojure/tools.analyzer.jvm/1.3.2/tools.analyzer.jvm-1.3.2.jar": {
+      "sha256": "d8a2d59205a21281f305f3d5439ffc302182c307f9be962a76ce814a6620693d"
+    },
+    "org/clojure/tools.analyzer.jvm/1.3.2/tools.analyzer.jvm-1.3.2.pom": {
+      "sha256": "e5daa49b27810939e3a2076f5b61837ff31d222d96ffb62278d4619fdd7d30c8"
+    },
+    "org/clojure/tools.analyzer/1.2.0/tools.analyzer-1.2.0.jar": {
+      "sha256": "7801a5a7ef4fd77f560c30a638594447c3aa71ee78b7f088553b7919bd0033bb"
+    },
+    "org/clojure/tools.analyzer/1.2.0/tools.analyzer-1.2.0.pom": {
+      "sha256": "882321aa528be90fbd8a43a57a6efa6b1920fa2ea0edc7fefa41f3cd37f72105"
+    },
+    "org/clojure/tools.cli/1.1.230/tools.cli-1.1.230.jar": {
+      "sha256": "916630b539a43ff468b4dd016c62857e2b4cb5da6686f1297587cdd43ca102cd"
+    },
+    "org/clojure/tools.cli/1.1.230/tools.cli-1.1.230.pom": {
+      "sha256": "bfb621e4b01a5b8bce116a6070840dcdd5949e899c78468d811b6e8aaa9fd1c7"
+    },
+    "org/clojure/tools.cli/1.4.256/tools.cli-1.4.256.jar": {
+      "sha256": "2a2d1769aa5ced5aa40e92c8ff568ea2751398b0ea45520308774ec2317abcee"
+    },
+    "org/clojure/tools.cli/1.4.256/tools.cli-1.4.256.pom": {
+      "sha256": "fea131dc677622188e612abe45e892a1ca4598bef0f14465d38ba5d58f7ea9de"
+    },
+    "org/clojure/tools.deps.cli/0.31.158/tools.deps.cli-0.31.158.jar": {
+      "sha256": "7dec0f951b3c5acfc4534545804f337539d4f919ab5f1ca1deb6736af18a076b"
+    },
+    "org/clojure/tools.deps.cli/0.31.158/tools.deps.cli-0.31.158.pom": {
+      "sha256": "40454637cc788957d3d8bcb02ac796b38d8d8f00435521f341373639d328a988"
+    },
+    "org/clojure/tools.deps.edn/0.9.27/tools.deps.edn-0.9.27.jar": {
+      "sha256": "d1e40c612a60f3afb025f60ebbbffac7f926c0aaf046c204755f207376ed509f"
+    },
+    "org/clojure/tools.deps.edn/0.9.27/tools.deps.edn-0.9.27.pom": {
+      "sha256": "a5896813c5cff970ba5c2490907c551a39003a9d5d4b8119e2dcf3337a1da3a1"
+    },
+    "org/clojure/tools.deps.maven-s3-transporter/0.1.3/tools.deps.maven-s3-transporter-0.1.3.jar": {
+      "sha256": "fab4646b31d91d5e1843bcc8b2811a278c6cef790355f856b7524e7e5aa07548"
+    },
+    "org/clojure/tools.deps.maven-s3-transporter/0.1.3/tools.deps.maven-s3-transporter-0.1.3.pom": {
+      "sha256": "756e50177de60cb0e5d0f0782d4897a3c41c478f28a0ee38374e6490c9bfcaa1"
+    },
+    "org/clojure/tools.deps/0.31.1629/tools.deps-0.31.1629.jar": {
+      "sha256": "414ad23046949c398c03326e289836b4f499246d08861c3ec600eae342b01129"
+    },
+    "org/clojure/tools.deps/0.31.1629/tools.deps-0.31.1629.pom": {
+      "sha256": "443db08e624a5be92f4f15d369b82930cb1c3252c6a14dcbd01287dc9ec49afc"
+    },
+    "org/clojure/tools.gitlibs/2.6.217/tools.gitlibs-2.6.217.jar": {
+      "sha256": "508b27e12f0609e61046496f7ecfee2b364698763c5754e33b3e78781b69a286"
+    },
+    "org/clojure/tools.gitlibs/2.6.217/tools.gitlibs-2.6.217.pom": {
+      "sha256": "d09c8c463997344c6ae660e369da05bf1be965a632299379681ddeb783f8bece"
+    },
+    "org/clojure/tools.logging/1.3.1/tools.logging-1.3.1.jar": {
+      "sha256": "13fb97ea2472056ea0660d4f8e88b4f66486c2cfff380b82859ab3cd33592935"
+    },
+    "org/clojure/tools.logging/1.3.1/tools.logging-1.3.1.pom": {
+      "sha256": "03fe271b75fc4e2be9c1ffe6c0b4564dbf031c4227eb34ecf53ca3a2b1ea1ea1"
+    },
+    "org/clojure/tools.namespace/1.5.1/tools.namespace-1.5.1.jar": {
+      "sha256": "6e89dc0cf983e670ea75a2d77d4325599be1d4c30cf0a8275272cdac195cc401"
+    },
+    "org/clojure/tools.namespace/1.5.1/tools.namespace-1.5.1.pom": {
+      "sha256": "ac4d5d17976dabcadc68d8383d087c5ec2808ce2a5bbac5138a207352e2430f2"
+    },
+    "org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.pom": {
+      "sha256": "aef5ee828b7cb14a1c58f45b9f8a10ff340c5769925ea0ef5c35d1e49d920bea"
+    },
+    "org/clojure/tools.reader/1.5.0/tools.reader-1.5.0.jar": {
+      "sha256": "bfc8f709efb843f2ccc4daa93e2842ceb86e7b8d11d5544dc0ee68b6a0f4db3c"
+    },
+    "org/clojure/tools.reader/1.5.0/tools.reader-1.5.0.pom": {
+      "sha256": "61ab2a12385204e6c58b87d3d8ea478e94986a200ab3afb25ae279eaadc3a99a"
+    },
+    "org/clojure/tools.reader/1.5.2/tools.reader-1.5.2.jar": {
+      "sha256": "cb96ed0efdf0b8bc362632cb74067ef225f6b03f3f478c8ba44182f6a17a37b6"
+    },
+    "org/clojure/tools.reader/1.5.2/tools.reader-1.5.2.pom": {
+      "sha256": "b9996f5c9b57e234863f395fce64f97d3050b4f58530a6215a5969b082d214e7"
+    },
+    "org/clojure/tools.reader/1.6.0/tools.reader-1.6.0.jar": {
+      "sha256": "036dc155f3b62548df3da934791aa9d8ec36572a9c664ce2cc7f6551856436be"
+    },
+    "org/clojure/tools.reader/1.6.0/tools.reader-1.6.0.pom": {
+      "sha256": "986465cbf9790213c68a0ba03af36cfb76c6963283fc6537d57002de99477877"
+    },
+    "org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar": {
+      "sha256": "9a7f1b5c5a9effd61eadfd8731452a2f76a8e79111fac391ef75ea801bea203a"
+    },
+    "org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.pom": {
+      "sha256": "04842f331b0225b85a5e20439710d228ea7a6302abe6d53c9c9846fbc5bf99ff"
+    },
+    "org/codehaus/plexus/plexus-components/6.5/plexus-components-6.5.pom": {
+      "sha256": "c616f9be007c09888f66985b6dc982087220efbb930e7957edcba4f875429430"
+    },
+    "org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar": {
+      "sha256": "7c758612888782ccfe376823aee7cdcc7e0cdafb097f7ef50295a0b0c3a16edf"
+    },
+    "org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom": {
+      "sha256": "ef71d45a49edfe76be0f520312a76bc2aae73ec0743a5ffffe10d30122c6e2b2"
+    },
+    "org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom": {
+      "sha256": "7c75075badcb014443ee94c8c4cad2f4a9905be3ce9430fe7b220afc7fa3a80f"
+    },
+    "org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.jar": {
+      "sha256": "26f701c674180dc5535ed8d7bb4a48e4ed6d4b6a97703420383cd31557c6cdeb"
+    },
+    "org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.pom": {
+      "sha256": "7fc95f5fc5876313729c407d85cb803e6e005bbe32f5f39757cc81ff5746c95f"
+    },
+    "org/codehaus/plexus/plexus-interactivity/1.1/plexus-interactivity-1.1.pom": {
+      "sha256": "6511b83e0b3abee46b11da94c666c32818fbeb654809352647b5c0cc8122349b"
+    },
+    "org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.jar": {
+      "sha256": "088d444dbcedfb384630d8686697ece3c401d6f33c8f8b3aa7259ea1c6996878"
+    },
+    "org/codehaus/plexus/plexus-interpolation/1.29/plexus-interpolation-1.29.pom": {
+      "sha256": "ce0d5634297bb1e065dddfdc8a2a5675717c08e8f4783edcf581543711516938"
+    },
+    "org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar": {
+      "sha256": "873139960c4c780176dda580b003a2c4bf82188bdce5bb99234e224ef7acfceb"
+    },
+    "org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.pom": {
+      "sha256": "9b28bb307017938a94d06c85b2b099bc46912b859d084fb293e569f432eadb7c"
+    },
+    "org/codehaus/plexus/plexus-utils/3.6.1/plexus-utils-3.6.1.jar": {
+      "sha256": "05a63effd67e2d6b9d610cc82e2bd7473289d34802e57a529b28110f28af5679"
+    },
+    "org/codehaus/plexus/plexus-utils/3.6.1/plexus-utils-3.6.1.pom": {
+      "sha256": "c8397373781af640a76c5da88f1674293b4fc9a2391d0768ee3fc791883b040d"
+    },
+    "org/codehaus/plexus/plexus-utils/4.0.3/plexus-utils-4.0.3.jar": {
+      "sha256": "421ff6ed146c53a9d4eaade8f629b52b12af7187101f1bd06c2c64e904019f3c"
+    },
+    "org/codehaus/plexus/plexus-utils/4.0.3/plexus-utils-4.0.3.pom": {
+      "sha256": "35736658f3fe1efa395086c91df2592664fafa24c3f2608fdaba1136d17fd360"
+    },
+    "org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar": {
+      "sha256": "c1a510a87a62bd2d74ac1472dd31c3f9e9b0b8b8568f37d77c0f135415bebd05"
+    },
+    "org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.pom": {
+      "sha256": "3242ddc20873f71b381c333b22afb9cf3596d6a63b6683036a16bd51bc8721a4"
+    },
+    "org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom": {
+      "sha256": "2242fd02d12b1ca73267fb3d89863025517200e7a4ee426cba4667d0172c74c3"
+    },
+    "org/codehaus/plexus/plexus/18/plexus-18.pom": {
+      "sha256": "b43ee89c8890b9e5bc48d079fcb4c44f082b5139253356dc455806a33c3dd8fd"
+    },
+    "org/codehaus/plexus/plexus/24/plexus-24.pom": {
+      "sha256": "89a1bc79e46c35ab108b7e215bb2c5c215ff8f3af1ae3cfef82d9a2b33b06c51"
+    },
+    "org/codehaus/plexus/plexus/25/plexus-25.pom": {
+      "sha256": "faa7947c2020967ad0c92b259ee9fa361d05e90cd036d17c37098bb1edaea3a3"
+    },
+    "org/codehaus/plexus/plexus/6.5/plexus-6.5.pom": {
+      "sha256": "737ff2200498dd54c920712404caa4426d38639d05014ff3ef1b3e7c5bd91397"
+    },
+    "org/codehaus/plexus/plexus/8/plexus-8.pom": {
+      "sha256": "ffa349db04e7abf65885bdc5a2062f4197c0ff9d3f1f4e2aa5720b77233f742c"
+    },
+    "org/flatland/ordered/1.15.12/ordered-1.15.12.jar": {
+      "sha256": "3700fd3739dd0928f94918b71045a5f88c43f95afe67e1a355eb863e2f9925e0"
+    },
+    "org/flatland/ordered/1.15.12/ordered-1.15.12.pom": {
+      "sha256": "bd65015fe358ecae9917e2c9e3aa1200063a8a46b41792958d1a35475dc7f0ea"
+    },
+    "org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar": {
+      "sha256": "3fb71231afd098bb0f93f5eb97aa8291c8d0556379125e596f92ec8f944c6162"
+    },
+    "org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.pom": {
+      "sha256": "5ab1956fe8c45f35d46a5e47f320744d9fc4f5857cda9311b37189c5d353da0f"
+    },
+    "org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom": {
+      "sha256": "169dd904a4b0f6520cffe658cc62292bfe9f3c14a989fa92120724cde43a9968"
+    },
+    "org/junit/junit-bom/5.12.2/junit-bom-5.12.2.pom": {
+      "sha256": "cef80fec86454f6806bfb0df24669b5c6f32e2cb728539ea859f47dfdc9bbc17"
+    },
+    "org/junit/junit-bom/5.13.1/junit-bom-5.13.1.pom": {
+      "sha256": "fa68451ea830572ed43ffe51d75b6a05f7a5e665a602a51f49d6be02063a65f3"
+    },
+    "org/junit/junit-bom/5.13.4/junit-bom-5.13.4.pom": {
+      "sha256": "d7a08a99b2502f0bb68cd4e1f984f0bf69324aaa208bd0f73366c03fc3548a42"
+    },
+    "org/junit/junit-bom/5.14.1/junit-bom-5.14.1.pom": {
+      "sha256": "01b01dfa366550b40ac5760548a7d728b6109d17c451e83864d1e5e0ce862c94"
+    },
+    "org/junit/junit-bom/5.14.2/junit-bom-5.14.2.pom": {
+      "sha256": "ed2dcc7855bd460bccc93a1bf0c962e63b566ff7d8f1ded0f1f2593ba8183aaf"
+    },
+    "org/junit/junit-bom/5.14.4/junit-bom-5.14.4.pom": {
+      "sha256": "5706e8f29a0a07f56efbbea4a0670793414194bb8d24d8143ba1e787a2f32856"
+    },
+    "org/msgpack/msgpack/0.6.12/msgpack-0.6.12.jar": {
+      "sha256": "e09ca65d8520488e80a5dc426848a8afccfd40f4a2eb3b9646042595d3bd9b5e"
+    },
+    "org/msgpack/msgpack/0.6.12/msgpack-0.6.12.pom": {
+      "sha256": "94497d8f02f8de8159a5b7d5136e010f57f5d9ac65886112eced8695c5056dee"
+    },
+    "org/ow2/asm/asm/9.9.1/asm-9.9.1.jar": {
+      "sha256": "6f3828a215c920059a5efa2fb55c233d6c54ec5cadca99ce1b1bdd10077c7ddd"
+    },
+    "org/ow2/asm/asm/9.9.1/asm-9.9.1.pom": {
+      "sha256": "aca68dee9ba2f6cd90ffde728efdc7e3ebfcf59f3f41fbfe248d2d01d5b866af"
+    },
+    "org/ow2/ow2/1.5.1/ow2-1.5.1.pom": {
+      "sha256": "321ddbb7ee6fe4f53dea6b4cd6db74154d6bfa42391c1f763b361b9f485acf05"
+    },
+    "org/ring-clojure/ring-core-protocols/1.15.3/ring-core-protocols-1.15.3.jar": {
+      "sha256": "95eb3510ae71042738a767926b29954865e012da88f13bbfae823bfbd77d02fc"
+    },
+    "org/ring-clojure/ring-core-protocols/1.15.3/ring-core-protocols-1.15.3.pom": {
+      "sha256": "e404fd9429d3b3ef5428f5cf830f07958efd57a855a7c9ec6809b03f3c2f1b53"
+    },
+    "org/ring-clojure/ring-websocket-protocols/1.15.3/ring-websocket-protocols-1.15.3.jar": {
+      "sha256": "684e1b46039a445229e7e900d77f9627e40ae9651495b1373c7084555a1101e4"
+    },
+    "org/ring-clojure/ring-websocket-protocols/1.15.3/ring-websocket-protocols-1.15.3.pom": {
+      "sha256": "48af8b9fbc70ce00a033994585c911e48343dcf92620b67b262f624fa5039b98"
+    },
+    "org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar": {
+      "sha256": "ab57ca8fd223772c17365d121f59e94ecbf0ae59d08c03a3cb5b81071c019195"
+    },
+    "org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.pom": {
+      "sha256": "bd96243d7d4218cd7cc7d45c0e30fa13480a1a4f91d356edd7dfe93f1ffb68e6"
+    },
+    "org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.pom": {
+      "sha256": "ed61c461fdd8cb69412c02e7176f1bf79dc33f128d5eeb98f75f7cadd4ff7c43"
+    },
+    "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar": {
+      "sha256": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+    },
+    "org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom": {
+      "sha256": "fb046a9c229437928bb11c2d27c8b5d773eb8a25e60cbd253d985210dedc2684"
+    },
+    "org/slf4j/slf4j-api/2.1.0-alpha1/slf4j-api-2.1.0-alpha1.jar": {
+      "sha256": "9ab7ffa646202b499d05995a3ec82f31bccb7a50345c1514d8cb42ec8ccea353"
+    },
+    "org/slf4j/slf4j-api/2.1.0-alpha1/slf4j-api-2.1.0-alpha1.pom": {
+      "sha256": "422aea5bebba8305b3c614fa668ed229e3c9610930ecf42f87338ee05e268a75"
+    },
+    "org/slf4j/slf4j-bom/2.1.0-alpha1/slf4j-bom-2.1.0-alpha1.pom": {
+      "sha256": "a8e81389978f440709241b983d31efa787113be11b818c2c6bcd9ed3096fd485"
+    },
+    "org/slf4j/slf4j-nop/1.7.36/slf4j-nop-1.7.36.jar": {
+      "sha256": "c214958b07816cb4412b30c7bdbd4308ffdc6ba2a83767b8f3a9229cbd9274d6"
+    },
+    "org/slf4j/slf4j-nop/1.7.36/slf4j-nop-1.7.36.pom": {
+      "sha256": "20a0f7c060020d75fef4470ae6948661d418ebd5ea4549c68abedf20ee86cb65"
+    },
+    "org/slf4j/slf4j-nop/2.1.0-alpha1/slf4j-nop-2.1.0-alpha1.jar": {
+      "sha256": "b198cc44edfce234dc8a5ad70a778192052cc372134a723186cd8727898ab7fd"
+    },
+    "org/slf4j/slf4j-nop/2.1.0-alpha1/slf4j-nop-2.1.0-alpha1.pom": {
+      "sha256": "88c516c41be0dc69b66bdadff1cc58f702dfecb03a039b838b01e9058235b0f6"
+    },
+    "org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom": {
+      "sha256": "bb388d37fbcdd3cde64c3cede21838693218dc451f04040c5df360a78ed7e812"
+    },
+    "org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom": {
+      "sha256": "c43bc5a022dbfd9de82be232dffe46208cbc7de12c14385b5da824e331e535bb"
+    },
+    "org/slf4j/slf4j-parent/2.1.0-alpha1/slf4j-parent-2.1.0-alpha1.pom": {
+      "sha256": "ce4735b1f9c821de0b92b8dbe40b071c6ea320732e593559c6ea6df965f8738f"
+    },
+    "org/sonatype/oss/oss-parent/6/oss-parent-6.pom": {
+      "sha256": "b4306d13e8f5392458a1b30866f1cff161b3d2e6999a88d059eea3932c8a8499"
+    },
+    "org/sonatype/oss/oss-parent/7/oss-parent-7.pom": {
+      "sha256": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454"
+    },
+    "org/springframework/build/aws-maven/4.8.0.RELEASE/aws-maven-4.8.0.RELEASE.jar": {
+      "sha256": "00dec69ddcddf05c947fb0a87d5178d986baab053471f80d52699590e1fb3ba8"
+    },
+    "org/springframework/build/aws-maven/4.8.0.RELEASE/aws-maven-4.8.0.RELEASE.pom": {
+      "sha256": "004f4f2a7910871e788b6fc3a0a94063a0a6649f510c90cef266ef92ecc217f3"
+    },
+    "org/tcrawley/dynapath/1.1.0/dynapath-1.1.0.jar": {
+      "sha256": "9fc7aa3be6385da3ad22a06526f15a5d335d9e89d40f39bf2f9a00e0bbbd8ae8"
+    },
+    "org/tcrawley/dynapath/1.1.0/dynapath-1.1.0.pom": {
+      "sha256": "e4e3ce4de2162a6f14f508c1d0dbf4b3db6cac193913e91578085c18b7ac261a"
+    },
+    "prismatic/schema/1.1.12/schema-1.1.12.jar": {
+      "sha256": "b7fb90f402b076ee702ab69caf39f44a21aafa2e1339916258b82c89a7971db8"
+    },
+    "prismatic/schema/1.1.12/schema-1.1.12.pom": {
+      "sha256": "6d4929f40909b4d2d8c418c97a43da427bc9412a79cf3eb538f15ba714c2252a"
+    },
+    "progrock/progrock/0.1.2/progrock-0.1.2.jar": {
+      "sha256": "0259feb5b02476eb300b7d64e543eb54ce4ac3dcae5398310f1642768fd53f2a"
+    },
+    "progrock/progrock/0.1.2/progrock-0.1.2.pom": {
+      "sha256": "eab50b723c9e78490f583cb99fb1d46bc280ff11fd5f8523b9bed76a64eaf023"
+    },
+    "ring/ring-codec/1.3.0/ring-codec-1.3.0.jar": {
+      "sha256": "a3176d58f2b9e2e4e2c6c75c06d1df2b162247ee09ba98d525547e9e59c880ef"
+    },
+    "ring/ring-codec/1.3.0/ring-codec-1.3.0.pom": {
+      "sha256": "ecd4ea6b36f2cc78e7de31a85084b9ae615d58b8a16fd1a3e06b954fd1d5c714"
+    },
+    "ring/ring-core/1.15.3/ring-core-1.15.3.jar": {
+      "sha256": "4d8d97098898e33e8bb78d3f0f28b0b1c8cede6d88ba3a4ec35ee58e974007bc"
+    },
+    "ring/ring-core/1.15.3/ring-core-1.15.3.pom": {
+      "sha256": "34f2909477378f4d22afa2c77941fc4579808a3cba959b06f1ebaf1ed31ad71d"
+    },
+    "s3-wagon-private/s3-wagon-private/1.3.5/s3-wagon-private-1.3.5.jar": {
+      "sha256": "c17593c220292c03f78977a5b3bcf5826a2b94e6a21d346ecd3cc5ad92954008"
+    },
+    "s3-wagon-private/s3-wagon-private/1.3.5/s3-wagon-private-1.3.5.pom": {
+      "sha256": "f44342ca3f048643a22988561ef6a50e469577ca0d6707a02b65ee4ec010f615"
+    },
+    "slingshot/slingshot/0.12.2/slingshot-0.12.2.jar": {
+      "sha256": "a68ac22bf2ea3cd54ce34db70fd69844d631ef549f6450c278c30e6f79df63f3"
+    },
+    "slingshot/slingshot/0.12.2/slingshot-0.12.2.pom": {
+      "sha256": "4abc4e2b9a69c73bd373e832d3f00e59067843ff8351efd5eebb1f3824db9c51"
+    },
+    "slipset/deps-deploy/0.2.5/deps-deploy-0.2.5.jar": {
+      "sha256": "0078460a5679049dcf8e64a4e13164d11758af8c7e455d25e6d65fc60497156c"
+    },
+    "slipset/deps-deploy/0.2.5/deps-deploy-0.2.5.pom": {
+      "sha256": "f228109c61fb552598a844ae4deb15bb0c0f1064efa1cca1c1719c7bc5eda47a"
+    },
+    "software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar": {
+      "sha256": "0d127b205a1fce0abc2a3757a041748651bc66c15cf4c059bac5833b27d471a5"
+    },
+    "software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.pom": {
+      "sha256": "20a643c46de6bc30cc81fa3b9e3bb1697afa37168cc183745497b704969bbb92"
+    },
+    "tech/droit/clj-diff/1.0.1/clj-diff-1.0.1.jar": {
+      "sha256": "6674eae35fe33101c47472e0b3a246ba1d9a170bcecce4ee49ac646dc74ea4b7"
+    },
+    "tech/droit/clj-diff/1.0.1/clj-diff-1.0.1.pom": {
+      "sha256": "57b4a1d47a0a305958ec7360044a6e1789ca84626ae3021129e9a8d54243b60a"
+    }
+  }
+}

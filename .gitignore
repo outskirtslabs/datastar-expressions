@@ -18,3 +18,6 @@ pom.xml.asc
 .lsp
 *.md
 extra/
+.direnv
+result
+.env
