@@ -63,7 +63,7 @@ that is not necessarily a bug.
 [source,clojure]
 ----
 datastar/expressions {:git/url "https://github.com/outskirtslabs/datastar-expressions/"
-                      :git/sha "53efc7093be1ba33b331b4a27884be8925d8bdce"}
+                      :git/sha "431b9a007c07346792ff30d806845610b799e279"}
 ----
 
 == Documentation
